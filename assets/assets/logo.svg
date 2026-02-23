@@ -1,0 +1,17 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="700" height="160" viewBox="0 0 700 160" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="hulisiGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#14F1D9"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(60,80)">
+    <rect x="-40" y="-40" width="24" height="80" rx="8" fill="url(#hulisiGradient)"/>
+    <rect x="16" y="-40" width="24" height="80" rx="8" fill="url(#hulisiGradient)"/>
+    <rect x="-16" y="-10" width="32" height="20" rx="6" fill="#8B5CF6"/>
+  </g>
+  <text x="140" y="95" font-family="Inter, Arial" font-weight="800" font-size="48" fill="#0B1220">Hulisi</text>
+  <text x="140" y="125" font-family="Inter, Arial" font-size="16" fill="#64748B">Save While You Spend</text>
+</svg>

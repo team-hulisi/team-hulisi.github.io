@@ -1,0 +1,789 @@
+{
+  "ICICI-Any": {
+    "cardName": "Any",
+    "bankName": "ICICI",
+    "cardType": null,
+    "discounts": [
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "percentage": null,
+        "maxDiscount": 250,
+        "minBillAmount": 3500,
+        "maxUsagePerMonth": 1,
+        "source": "Zomato",
+        "offerText": "Extra Flat ₹250 OFF using ICICI Bank Net Banking Valid on final payable amount of ₹3500 or more Offer only applicable on ICICI Bank Net Banking Offer valid once per user during the offer period Restaurants applicable under this program can be found on the app & are subject to change from time to time Offer is applicable on all days Other T&Cs may apply"
+      },
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "percentage": null,
+        "maxDiscount": null,
+        "minBillAmount": 2000,
+        "maxUsagePerMonth": 1,
+        "source": "EazyDiner",
+        "offerText": "ICICI Bank Net Banking Extra ₹200 Off Min. bill of Rs 2000 Valid once per month ICICI Bank Net Banking Min bill of ₹ 2000"
+      }
+    ]
+  },
+  "AU Small Finance-Any": {
+    "cardName": "Any",
+    "bankName": "AU Small Finance",
+    "cardType": null,
+    "discounts": [
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "percentage": null,
+        "maxDiscount": 50,
+        "minBillAmount": 1499,
+        "maxUsagePerMonth": 1,
+        "source": "Zomato",
+        "offerText": "Flat ₹50 OFF using MobiKwik UPI Valid on final payable amount of ₹1499 or more Offer valid once per user during the offer period Offer valid on bill value of ₹1499 and above Offer applicable only on final billable amount net of other discounts (excluding convenience fee, cover charges and tips) Restaurants applicable under this program can be found on the app & are subject to change from time to time Other T&Cs may apply"
+      }
+    ]
+  },
+  "AU Small Finance-IVY": {
+    "cardName": "IVY",
+    "bankName": "AU Small Finance",
+    "cardType": "Debit",
+    "discounts": [
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "percentage": 10,
+        "maxDiscount": 750,
+        "minBillAmount": 2500,
+        "maxUsagePerMonth": 2,
+        "source": "Zomato",
+        "offerText": "Get 10% OFF up to ₹750 using select AU Bank IVY Debit Cards Valid on final payable amount of ₹2500 or more Offer applicable on select AU IVY Debit Card Offer valid twice per card during the offer period Offer applicable only on final billable amount net of other discounts (excluding convenience fee, cover charges and tips) Restaurants applicable under this program can be found on the app & are subject to change from time to time Other T&Cs may apply"
+      }
+    ]
+  },
+  "FEDERAL-AmpliFi": {
+    "cardName": "AmpliFi",
+    "bankName": "FEDERAL",
+    "cardType": "Credit",
+    "discounts": [
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "percentage": 20,
+        "maxDiscount": 1200,
+        "minBillAmount": 2500,
+        "maxUsagePerMonth": 1,
+        "source": "Zomato",
+        "offerText": "20% OFF up to ₹1200 using AmpliFi Fi Federal Credit Cards Valid on final payable amount of ₹2500 or more Offer valid on AmpliFi Fi Federal Credit Cards only Offer valid on bill value of ₹2500 and above Offer applicable once per card during the offer period Offer applicable only on final billable amount net of other discounts (excluding convenience fee, cover charges and tips) Restaurants applicable under this program can be found on the the app & are subject to change from time to time Offer valid all days"
+      }
+    ]
+  },
+  "YES-Credit Card": {
+    "cardName": "Credit Card",
+    "bankName": "YES",
+    "cardType": "Credit",
+    "discounts": [
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "percentage": null,
+        "maxDiscount": 500,
+        "minBillAmount": 4000,
+        "maxUsagePerMonth": 1,
+        "source": "Zomato",
+        "offerText": "Flat ₹500 OFF using YES BANK Credit Cards Valid on final payable amount of ₹4000 or more Offer valid once per user during the offer period Offer applicable only on final billable amount net of other discounts (excluding convenience fee, cover charges and tips) Restaurants applicable under this program can be found on the app & are subject to change from time to time Other T&Cs may apply"
+      }
+    ]
+  },
+  "TIDE-Any": {
+    "cardName": "Any",
+    "bankName": "TIDE",
+    "cardType": null,
+    "discounts": [
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "percentage": 10,
+        "maxDiscount": 200,
+        "minBillAmount": 999,
+        "maxUsagePerMonth": 1,
+        "source": "Zomato",
+        "offerText": "Get 10% OFF up to ₹200 using TIDE Cards Valid on final payable amount of ₹999 or more Offer valid once per user during the offer period Offer applicable only on final billable amount net of other discounts (excluding convenience fee, cover charges and tips) Restaurants applicable under this program can be found on the app & are subject to change from time to time Other T&Cs may apply"
+      }
+    ]
+  },
+  "KOTAK-811 Infinity Metal": {
+    "cardName": "811 Infinity Metal",
+    "bankName": "KOTAK",
+    "cardType": "Debit",
+    "discounts": [
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "percentage": 20,
+        "maxDiscount": 750,
+        "minBillAmount": 2000,
+        "maxUsagePerMonth": 1,
+        "source": "Zomato",
+        "offerText": "Get 20% OFF up to ₹750 using Kotak Bank 811 Infinity Metal Debit Card Valid on final payable amount of ₹2000 or more Offer applicable once per card per calendar month Offer applicable only on final billable amount net of other discounts (excluding convenience fee, cover charges and tips) Offer valid on all days Restaurants applicable under this program can be found on the app & are subject to change from time to time. Other T&Cs may apply"
+      }
+    ]
+  },
+  "KOTAK-Solitaire": {
+    "cardName": "Solitaire",
+    "bankName": "KOTAK",
+    "cardType": "Debit",
+    "discounts": [
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "percentage": 10,
+        "maxDiscount": 1500,
+        "minBillAmount": 2500,
+        "maxUsagePerMonth": 1,
+        "source": "Zomato",
+        "offerText": "Get 10% OFF up to ₹1500 using Kotak Bank Solitaire Debit Card Valid on final payable amount of ₹2500 or more Offer applicable once per card per calendar month Offer valid on all days Offer applicable only on final billable amount net of other discounts (excluding convenience fee, cover charges and tips) Restaurants applicable under this program can be found on the app & are subject to change from time to time. Other T&Cs may apply"
+      },
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "percentage": 20,
+        "maxDiscount": 5000,
+        "minBillAmount": 0,
+        "maxUsagePerMonth": 2,
+        "source": "Zomato",
+        "offerText": "Get 20% OFF up to ₹5000 using Kotak Bank Solitaire Credit Cards Valid on final payable amount through the app Offer applicable twice per card per calendar month This offer can be availed without any minimum bill value requirement Offer valid on all days Offer applicable only on final billable amount net of other discounts (excluding convenience fee, cover charges and tips) Restaurants applicable under this program can be found on the app & are subject to change from time to time. Other T&Cs may apply"
+      }
+    ]
+  },
+  "HSBC-Prive": {
+    "cardName": "Prive",
+    "bankName": "HSBC",
+    "cardType": "Credit",
+    "discounts": [
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "percentage": 12,
+        "maxDiscount": 1000,
+        "minBillAmount": 3000,
+        "maxUsagePerMonth": 1,
+        "source": "Zomato",
+        "offerText": "Get 12% OFF up to ₹1000 using HSBC Prive Credit Cards Valid on final payable amount of ₹3000 or more Offer valid on HSBC Privé Credit Card Offer valid once per customer during the offer period Offer applicable only on final billable amount net of other discounts (excluding convenience fee, cover charges and tips) Restaurants applicable under this program can be found on the app & are subject to change from time to time Offer valid on All Days Other T&Cs may apply"
+      },
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "percentage": 30,
+        "maxDiscount": 2000,
+        "minBillAmount": 2500,
+        "maxUsagePerMonth": 1,
+        "source": "EazyDiner",
+        "offerText": "HSBC Prive’ Credit Card 30% off upto ₹2000 Min. bill of ₹2500. Valid once per card per month HSBC Prive Credit Card. Min bill of ₹ 2500"
+      }
+    ]
+  },
+  "DBS-Credit Card": {
+    "cardName": "Credit Card",
+    "bankName": "DBS",
+    "cardType": "Credit",
+    "discounts": [
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "percentage": 10,
+        "maxDiscount": 500,
+        "minBillAmount": 3000,
+        "maxUsagePerMonth": 1,
+        "source": "Zomato",
+        "offerText": "Get 10% OFF up to ₹500 using DBS Credit Cards Valid on final payable amount of ₹3000 or more Offer valid on DBS Credit Card Offer Applicable on Cobrand, Spark & Vantage Card Variants Offer Applicable only on cards with BINs: 47613702, 45148702, 356122 Offer valid on bill value of ₹3000 and above Offer applicable once per card during the offer period Offer applicable only on final billable amount net of other discounts (excluding convenience fee, cover charges and tips) Restaurants applicable under this program can be found on the app & are subject to change from time to time Offer valid all days"
+      }
+    ]
+  },
+  "KOTAK-Privy Platinum": {
+    "cardName": "Privy Platinum",
+    "bankName": "KOTAK",
+    "cardType": "Debit",
+    "discounts": [
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "percentage": 10,
+        "maxDiscount": 1000,
+        "minBillAmount": 2500,
+        "maxUsagePerMonth": 1,
+        "source": "Zomato",
+        "offerText": "Get 10% OFF up to ₹1000 using Kotak Bank Privy Platinum Debit Card Valid on final payable amount of ₹2500 or more Offer applicable once per card per calendar month Offer applicable only on final billable amount net of other discounts (excluding convenience fee, cover charges and tips) Offer valid on all days Restaurants applicable under this program can be found on the app & are subject to change from time to time. Other T&Cs may apply"
+      }
+    ]
+  },
+  "IDFC-Wealth": {
+    "cardName": "Wealth",
+    "bankName": "IDFC",
+    "cardType": "Debit",
+    "discounts": [
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "percentage": 15,
+        "maxDiscount": 750,
+        "minBillAmount": 5000,
+        "maxUsagePerMonth": 1,
+        "source": "Zomato",
+        "offerText": "Get 15% OFF up to ₹750 using IDFC Wealth Debit Cards Valid on final payable amount of ₹5000 or more Offer applicable on IDFC Wealth Debit Cards Offer valid once per user during the offer period Offer applicable only on final billable amount net of other discounts (excluding tips) Restaurants applicable under this program can be found on the app & are subject to change from time to time Other T&Cs may apply"
+      }
+    ]
+  },
+  "KOTAK-Privy Neon": {
+    "cardName": "Privy Neon",
+    "bankName": "KOTAK",
+    "cardType": "Debit",
+    "discounts": [
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "percentage": 10,
+        "maxDiscount": 600,
+        "minBillAmount": 2500,
+        "maxUsagePerMonth": 1,
+        "source": "Zomato",
+        "offerText": "Get 10% OFF up to ₹600 using Kotak Bank Privy Neon Debit Card Valid on final payable amount of ₹2500 or more Offer applicable once per card per calendar month Offer applicable only on final billable amount net of other discounts (excluding convenience fee, cover charges and tips) Offer valid on all days Restaurants applicable under this program can be found on the app & are subject to change from time to time. Other T&Cs may apply"
+      }
+    ]
+  },
+  "AU Small Finance-Debit Card": {
+    "cardName": "Debit Card",
+    "bankName": "AU Small Finance",
+    "cardType": "Debit",
+    "discounts": [
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "percentage": 10,
+        "maxDiscount": 500,
+        "minBillAmount": 1500,
+        "maxUsagePerMonth": 1,
+        "source": "Zomato",
+        "offerText": "Get 10% OFF up to ₹500 using select AU Bank Debit Cards Valid on final payable amount of ₹1500 or more Offer applicable on select AU Debit Card except AU IVY Debit Card Offer valid once per card during the offer period Offer applicable only on final billable amount net of other discounts (excluding convenience fee, cover charges and tips) Restaurants applicable under this program can be found on the app & are subject to change from time to time Other T&Cs may apply"
+      }
+    ]
+  },
+  "HSBC-Premier": {
+    "cardName": "Premier",
+    "bankName": "HSBC",
+    "cardType": "Credit",
+    "discounts": [
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "percentage": 10,
+        "maxDiscount": 1000,
+        "minBillAmount": 5000,
+        "maxUsagePerMonth": 1,
+        "source": "Zomato",
+        "offerText": "Get 10% OFF for up to ₹1000 using HSBC Premier Credit Cards Valid on final payable amount of ₹5000 or more Offer valid once per customer during the offer period Offer applicable only on cards with BIN- 512042 Offer applicable only on final billable amount net of other discounts (excluding tips) Offer valid on all days Offer not valid on HSBC Cashback / Live+ Credit Card variant Restaurants applicable under this program can be found on the app & are subject to change from time to time Other T&Cs may apply"
+      },
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "percentage": 30,
+        "maxDiscount": 1500,
+        "minBillAmount": 3000,
+        "maxUsagePerMonth": 1,
+        "source": "EazyDiner",
+        "offerText": "HSBC Premier Credit Cards Offer 30% off upto ₹1500 Min. bill of ₹3000. Valid once per card per month HSBC Premier Credit Card. Min bill of ₹ 3000"
+      }
+    ]
+  },
+  "SBI-AURUM": {
+    "cardName": "AURUM",
+    "bankName": "SBI",
+    "cardType": "Credit",
+    "discounts": [
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "percentage": 15,
+        "maxDiscount": 750,
+        "minBillAmount": 4000,
+        "maxUsagePerMonth": 1,
+        "source": "Zomato",
+        "offerText": "Get 15% OFF up to ₹750 using SBI AURUM Credit Cards Valid on final payable amount of ₹4000 or more Offer valid once per card per month Offer is not eligible for Reward Points forfeiture Offer applicable only on final billable amount net of other discounts (excluding convenience fee, cover charges and tips) Restaurants applicable under this program can be found on the app & are subject to change from time to time Other T&Cs may apply"
+      }
+    ]
+  },
+  "HSBC-TravelOne": {
+    "cardName": "TravelOne",
+    "bankName": "HSBC",
+    "cardType": "Credit",
+    "discounts": [
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "percentage": 10,
+        "maxDiscount": 1000,
+        "minBillAmount": 0,
+        "maxUsagePerMonth": null,
+        "source": "Zomato",
+        "offerText": "Get 10% OFF up to ₹1000 using HSBC TravelOne Credit Card Valid on final payable amount through the app Offer valid on HSBC TravelOne Credit Card This offer can be availed without any minimum bill value requirement Offer can be availed once per calendar month Customers can avail a maximum discount up to ₹1000 Offer applicable only on final billable amount net of other discounts (excluding convenience fee, cover charges and tips) Restaurants applicable under this program can be found on the app & are subject to change from time to time Other T&Cs may apply"
+      },
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "percentage": 10,
+        "maxDiscount": 1000,
+        "minBillAmount": null,
+        "maxUsagePerMonth": 1,
+        "source": "EazyDiner",
+        "offerText": "HSBC TravelOne Credit Card Select 10% off upto ₹1000 No min. bill value. Valid once per card per month HSBC TravelOne Credit Card."
+      }
+    ]
+  },
+  "IDFC-Power": {
+    "cardName": "Power",
+    "bankName": "IDFC",
+    "cardType": "Debit",
+    "discounts": [
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "percentage": 10,
+        "maxDiscount": 500,
+        "minBillAmount": 1000,
+        "maxUsagePerMonth": 1,
+        "source": "Zomato",
+        "offerText": "Get 10% OFF up to ₹500 using IDFC First Power Women Platinum & Signature Debit Cards Valid on final payable amount of ₹1000 or more Offer applicable on IDFC First Power Women Platinum & Signature Debit Cards Offer valid once per user during the offer period Offer applicable only on final billable amount net of other discounts (excluding convenience fee, cover charges and tips) Restaurants applicable under this program can be found on the app & are subject to change from time to time Other T&Cs may apply"
+      }
+    ]
+  },
+  "IDFC-Platinum": {
+    "cardName": "Platinum",
+    "bankName": "IDFC",
+    "cardType": "Debit",
+    "discounts": [
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "percentage": 10,
+        "maxDiscount": 500,
+        "minBillAmount": 1000,
+        "maxUsagePerMonth": 1,
+        "source": "Zomato",
+        "offerText": "Get 10% OFF up to ₹500 using IDFC First Power Women Platinum & Signature Debit Cards Valid on final payable amount of ₹1000 or more Offer applicable on IDFC First Power Women Platinum & Signature Debit Cards Offer valid once per user during the offer period Offer applicable only on final billable amount net of other discounts (excluding convenience fee, cover charges and tips) Restaurants applicable under this program can be found on the app & are subject to change from time to time Other T&Cs may apply"
+      }
+    ]
+  },
+  "IDFC-Signature": {
+    "cardName": "Signature",
+    "bankName": "IDFC",
+    "cardType": "Debit",
+    "discounts": [
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "percentage": 10,
+        "maxDiscount": 500,
+        "minBillAmount": 1000,
+        "maxUsagePerMonth": 1,
+        "source": "Zomato",
+        "offerText": "Get 10% OFF up to ₹500 using IDFC First Power Women Platinum & Signature Debit Cards Valid on final payable amount of ₹1000 or more Offer applicable on IDFC First Power Women Platinum & Signature Debit Cards Offer valid once per user during the offer period Offer applicable only on final billable amount net of other discounts (excluding convenience fee, cover charges and tips) Restaurants applicable under this program can be found on the app & are subject to change from time to time Other T&Cs may apply"
+      }
+    ]
+  },
+  "BANDHAN-Any": {
+    "cardName": "Any",
+    "bankName": "BANDHAN",
+    "cardType": null,
+    "discounts": [
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "percentage": 15,
+        "maxDiscount": 750,
+        "minBillAmount": 2000,
+        "maxUsagePerMonth": 1,
+        "source": "Zomato",
+        "offerText": "Get 15% OFF up to ₹750 using Bandhan Bank Cards. Valid on final payable amount of ₹2000 or more Offer valid once per user during the offer period Offer applicable only on final billable amount net of other discounts (excluding convenience fee, cover charges and tips) Restaurants applicable under this program can be found on the app & are subject to change from time to time Other T&Cs may apply"
+      }
+    ]
+  },
+  "HSBC-Taj": {
+    "cardName": "Taj",
+    "bankName": "HSBC",
+    "cardType": "Credit",
+    "discounts": [
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "percentage": 12,
+        "maxDiscount": 1000,
+        "minBillAmount": 3000,
+        "maxUsagePerMonth": 1,
+        "source": "Zomato",
+        "offerText": "Get 12% OFF up to ₹1000 using HSBC Taj Credit Card Valid on final payable amount of ₹3000 or more Offer valid once per customer during the offer period Offer applicable only on final billable amount net of other discounts (excluding convenience fee, cover charges and tips) Restaurants applicable under this program can be found on the app & are subject to change from time to time Offer only valid for HSBC Taj Credit Card users Offer valid on all days Other T&Cs may apply"
+      },
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "percentage": 30,
+        "maxDiscount": 1500,
+        "minBillAmount": 3000,
+        "maxUsagePerMonth": 1,
+        "source": "EazyDiner",
+        "offerText": "HSBC Taj Credit Cards Offer 30% off upto ₹1500 Min. bill of ₹3000. Valid once per card per month HSBC Taj Visa Credit Card. Min bill of ₹ 3000"
+      }
+    ]
+  },
+  "KOTAK-Privy Black": {
+    "cardName": "Privy Black",
+    "bankName": "KOTAK",
+    "cardType": "Debit",
+    "discounts": [
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "percentage": 10,
+        "maxDiscount": 1200,
+        "minBillAmount": 2500,
+        "maxUsagePerMonth": 1,
+        "source": "Zomato",
+        "offerText": "Get 10% OFF up to ₹1200 using Kotak Bank Privy Black Debit Card Valid on final payable amount of ₹2500 or more Offer applicable once per card per calendar month Offer valid on all days Offer applicable only on final billable amount net of other discounts (excluding convenience fee, cover charges and tips) Restaurants applicable under this program can be found on the app & are subject to change from time to time. Other T&Cs may apply"
+      }
+    ]
+  },
+  "CANARA-Debit Card": {
+    "cardName": "Debit Card",
+    "bankName": "CANARA",
+    "cardType": "Debit",
+    "discounts": [
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "percentage": null,
+        "maxDiscount": 300,
+        "minBillAmount": 1499,
+        "maxUsagePerMonth": 1,
+        "source": "Zomato",
+        "offerText": "Flat ₹300 OFF using Canara Bank Debit Cards Valid on final payable amount of ₹1499 or more Offer valid once per card per month Offer applicable only on final billable amount net of other discounts (excluding convenience fee, cover charges and tips) Offer valid on all days Restaurants applicable under this program can be found on the app & are subject to change from time to time Other T&Cs may apply"
+      }
+    ]
+  },
+  "IDFC-Debit Card": {
+    "cardName": "Debit Card",
+    "bankName": "IDFC",
+    "cardType": "Debit",
+    "discounts": [
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "percentage": 12,
+        "maxDiscount": 500,
+        "minBillAmount": 5000,
+        "maxUsagePerMonth": 1,
+        "source": "Zomato",
+        "offerText": "Get 12% OFF up to ₹500 using IDFC Select Debit Cards Valid on final payable amount of ₹5000 or more Offer applicable on IDFC Select Debit Cards Offer valid once per user during the offer period Offer applicable only on final billable amount net of other discounts (excluding tips) Restaurants applicable under this program can be found on the app & are subject to change from time to time Other T&Cs may apply"
+      }
+    ]
+  },
+  "INDUSIND-Signature": {
+    "cardName": "Signature",
+    "bankName": "INDUSIND",
+    "cardType": "Credit",
+    "discounts": [
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "percentage": 25,
+        "maxDiscount": 1000,
+        "minBillAmount": 1,
+        "maxUsagePerMonth": 99,
+        "source": "EazyDiner",
+        "offerText": "EazyDiner IndusInd Bank Card 25% Off upto ₹1000 No min. bill value Valid every single time, upto the available discount limit. EazyDiner IndusInd Signature Credit Card. Min bill of ₹ 1"
+      }
+    ]
+  },
+  "INDUSIND-Platinum": {
+    "cardName": "Platinum",
+    "bankName": "INDUSIND",
+    "cardType": "Credit",
+    "discounts": [
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "percentage": 20,
+        "maxDiscount": 500,
+        "minBillAmount": 1,
+        "maxUsagePerMonth": 3,
+        "source": "EazyDiner",
+        "offerText": "EazyDiner IndusInd Bank Platinum Card 20% Off upto ₹500 No min. bill value Valid thrice per card per month EazyDiner IndusInd Platinum Credit Card. Min bill of ₹ 1"
+      }
+    ]
+  },
+  "AXIS-Any": {
+    "cardName": "Any",
+    "bankName": "AXIS",
+    "cardType": "Credit",
+    "discounts": [
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "percentage": 30,
+        "maxDiscount": 1000,
+        "minBillAmount": 3000,
+        "maxUsagePerMonth": 1,
+        "source": "EazyDiner",
+        "offerText": "Axis Bank 30% Off upto ₹1000 Min. bill of ₹3000. Valid once per month. Applicable on : Axis Bank Olympus Credit, Axis Bank Magnus Burgundy Credit Card, Axis Bank Reserve Credit Card, Burgundy Private Credit Card and Burgundy Private Debit card only Min bill of ₹ 3000"
+      },
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "percentage": 25,
+        "maxDiscount": 800,
+        "minBillAmount": 2500,
+        "maxUsagePerMonth": 1,
+        "source": "EazyDiner",
+        "offerText": "Axis Bank 25% Off upto ₹800 Min. bill of ₹2500. Valid once per month Applicable on: Burgundy Debit Card Min bill of ₹ 2500"
+      },
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "percentage": 15,
+        "maxDiscount": 500,
+        "minBillAmount": 2500,
+        "maxUsagePerMonth": 1,
+        "source": "EazyDiner",
+        "offerText": "Axis Bank 15% Off upto ₹500 Min. bill of ₹2500. Valid once per month Applicable on: All other credit and debit cards EXCLUDING Olympus, Reserve, Magnus Burgundy, Burgundy Private Credit Card and Burgundy Private Debit card and Burgundy Debit Card. Min bill of ₹ 2500"
+      }
+    ]
+  },
+  "BANDHAN-Credit Card": {
+    "cardName": "Credit Card",
+    "bankName": "BANDHAN",
+    "cardType": "Credit",
+    "discounts": [
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "percentage": 15,
+        "maxDiscount": 750,
+        "minBillAmount": null,
+        "maxUsagePerMonth": 1,
+        "source": "EazyDiner",
+        "offerText": "Bandhan Bank Credit Cards Select 15% Off upto ₹750 No min. bill value. Valid once per card per month Bandhan Bank Flare Credit Cards."
+      }
+    ]
+  },
+  "INDUSIND-Super Premium": {
+    "cardName": "Super Premium",
+    "bankName": "INDUSIND",
+    "cardType": "Credit",
+    "discounts": [
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "percentage": null,
+        "maxDiscount": 3000,
+        "minBillAmount": 500,
+        "maxUsagePerMonth": 1,
+        "source": "EazyDiner",
+        "offerText": "IndusInd Bank Super Premium Cards Upto ₹3000 off Offer valid once every six months per card (Jan–Jun and Jul–Dec). IndusInd Bank Super Premium Credit Cards. Min bill of ₹ 500"
+      }
+    ]
+  },
+  "IDFC-Credit Card": {
+    "cardName": "Credit Card",
+    "bankName": "IDFC",
+    "cardType": "Credit",
+    "discounts": [
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "percentage": null,
+        "maxDiscount": 1000,
+        "minBillAmount": 5000,
+        "maxUsagePerMonth": 1,
+        "source": "EazyDiner",
+        "offerText": "IDFC FIRST Bank Credit Cards Flat Rs. 1000 Instant Discount Min. bill of ₹5000. Valid once per card per month IDFC FIRST Bank FIRST Private Credit Cards. Min bill of ₹ 5000"
+      }
+    ]
+  },
+  "Bank of Baroda-Any": {
+    "cardName": "Any",
+    "bankName": "Bank of Baroda",
+    "cardType": "Credit",
+    "discounts": [
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "percentage": null,
+        "maxDiscount": 400,
+        "minBillAmount": 4000,
+        "maxUsagePerMonth": 1,
+        "source": "EazyDiner",
+        "offerText": "BOBCARD Flat ₹400 Off Min. bill of ₹4000 Valid once per card per month Offer is valid only for BOBCARD (Credit Card) holders. Min bill of ₹ 4000"
+      }
+    ]
+  },
+  "AU SMALL FINANCE-Any": {
+    "cardName": "Any",
+    "bankName": "AU SMALL FINANCE",
+    "cardType": "Credit",
+    "discounts": [
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "percentage": null,
+        "maxDiscount": 500,
+        "minBillAmount": 5000,
+        "maxUsagePerMonth": 1,
+        "source": "EazyDiner",
+        "offerText": "AU Small Finance Bank Limited Flat ₹500 Min. bill of ₹5000. Valid once per card per month Offer is applicable on AU Infinite Visa Credit Card. Min bill of ₹ 5000"
+      }
+    ]
+  },
+  "RBL-Corporate": {
+    "cardName": "Corporate",
+    "bankName": "RBL",
+    "cardType": "Credit",
+    "discounts": [
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "percentage": 25,
+        "maxDiscount": 2500,
+        "minBillAmount": 7500,
+        "maxUsagePerMonth": 1,
+        "source": "EazyDiner",
+        "offerText": "RBL Bank Corporate Credit Card 25% Off upto ₹2500 Min. bill value ₹7500. Valid once per card per month. RBL Bank Corporate Credit Cards. Min bill of ₹ 7500"
+      }
+    ]
+  },
+  "STANDARD CHARTERED-Beyond": {
+    "cardName": "Beyond",
+    "bankName": "STANDARD CHARTERED",
+    "cardType": "Credit",
+    "discounts": [
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "percentage": 25,
+        "maxDiscount": 2500,
+        "minBillAmount": null,
+        "maxUsagePerMonth": 1,
+        "source": "EazyDiner",
+        "offerText": "Standard Chartered Beyond Credit Card Select ・25% Off upto ₹2500 ・No min. bill value. ・Valid once per month ・Standard Chartered Beyond Credit Card."
+      }
+    ]
+  },
+  "DBS-Vantage": {
+    "cardName": "Vantage",
+    "bankName": "DBS",
+    "cardType": "Credit",
+    "discounts": [
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "percentage": 20,
+        "maxDiscount": 1500,
+        "minBillAmount": 2500,
+        "maxUsagePerMonth": 1,
+        "source": "EazyDiner",
+        "offerText": "DBS Bank Vantage Credit Card 20% Off Upto ₹1500 Min. bill of ₹2500. Valid once per month DBS Bank Vantage Credit Card. Min bill of ₹ 2500"
+      }
+    ]
+  },
+  "DBS-Spark": {
+    "cardName": "Spark",
+    "bankName": "DBS",
+    "cardType": "Credit",
+    "discounts": [
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "percentage": 15,
+        "maxDiscount": 500,
+        "minBillAmount": 2500,
+        "maxUsagePerMonth": 1,
+        "source": "EazyDiner",
+        "offerText": "DBS Bank Spark Credit Card 15% Off Upto ₹500 Min. bill of ₹2500. Valid once per month DBS Bank Spark Credit Card. Min bill of ₹ 2500"
+      }
+    ]
+  },
+  "SOUTH INDIAN-Debit Card": {
+    "cardName": "Debit Card",
+    "bankName": "SOUTH INDIAN",
+    "cardType": "Debit",
+    "discounts": [
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "percentage": 10,
+        "maxDiscount": 750,
+        "minBillAmount": 2500,
+        "maxUsagePerMonth": 1,
+        "source": "EazyDiner",
+        "offerText": "South Indian Bank Debit Cards ・10% Off upto ₹750 ・Min. bill of ₹2500. ・Valid once per card per month ・South Indian Bank Super Premium Debit Cards. Min bill of ₹ 2500"
+      }
+    ]
+  },
+  "HDFC-Times": {
+    "cardName": "Times",
+    "bankName": "HDFC",
+    "cardType": "Credit",
+    "discounts": [
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "percentage": 10,
+        "maxDiscount": 1500,
+        "minBillAmount": null,
+        "maxUsagePerMonth": 1,
+        "source": "EazyDiner",
+        "offerText": "HDFC Bank Times Credit Card Select 10% Off upto ₹1500 No min. bill value. Valid once per month HDFC Times Credit Card."
+      },
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "percentage": 15,
+        "maxDiscount": 1500,
+        "minBillAmount": null,
+        "maxUsagePerMonth": 1,
+        "source": "EazyDiner",
+        "offerText": "HDFC Bank Times Platinum Credit Card Select 15% Off upto ₹1500 No min. bill value. Valid once per month HDFC Times Platinum Credit Card."
+      }
+    ]
+  },
+  "CENTRAL-Debit Card": {
+    "cardName": "Debit Card",
+    "bankName": "CENTRAL",
+    "cardType": "Debit",
+    "discounts": [
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "percentage": 15,
+        "maxDiscount": 500,
+        "minBillAmount": 500,
+        "maxUsagePerMonth": 2,
+        "source": "EazyDiner",
+        "offerText": "Central Bank of India Debit Card 15% Off upto ₹500 Min. bill value ₹500. Valid twice per card per month. Central Bank of India Debit Cards. Min bill of ₹ 500"
+      }
+    ]
+  },
+  "HDFC-Platinum": {
+    "cardName": "Platinum",
+    "bankName": "HDFC",
+    "cardType": "Credit",
+    "discounts": [
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "percentage": 15,
+        "maxDiscount": 1500,
+        "minBillAmount": null,
+        "maxUsagePerMonth": 1,
+        "source": "EazyDiner",
+        "offerText": "HDFC Bank Times Platinum Credit Card Select 15% Off upto ₹1500 No min. bill value. Valid once per month HDFC Times Platinum Credit Card."
+      }
+    ]
+  }
+}
