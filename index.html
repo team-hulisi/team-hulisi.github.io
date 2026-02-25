@@ -156,7 +156,7 @@
     // Initialize
     async function init() {
       try {
-        const res = await fetch('./combined.json');
+        const res = await fetch('combined.json');
         data = await res.json();
         loadSavedCards();
         renderBanks();
@@ -199,7 +199,7 @@
 
       banksList.innerHTML = groups.map(([bankName, cards]) => {
         const filteredCards = filter 
-          ? cards.filter(c => c.bankName.toLowerCase().includes(filterLower) || c.cardName.toLowerCase().includes(filterLower))
+          ? cards.filter(c => (c.bankName && c.bankName.toLowerCase().includes(filterLower)) || (c.cardName && c.cardName.toLowerCase().includes(filterLower)))
           : cards;
         if (filteredCards.length === 0) return '';
         
