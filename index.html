@@ -1,46 +1,408 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <!--
-    If you are serving your web app in a path other than the root, change the
-    href value below to reflect the base path you are serving from.
-
-    The path provided below has to start and end with a slash "/" in order for
-    it to work correctly.
-
-    For more details:
-    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
-
-    This is a placeholder for base href that will be replaced by the value of
-    the `--base-href` argument provided to `flutter build`.
-  -->
-  <base href="/">
-
   <meta charset="UTF-8">
-  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="A new Flutter project.">
-
-  <!-- iOS meta tags & icons -->
-  <meta name="mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="hulisi_premium">
-  <link rel="apple-touch-icon" href="icons/Icon-192.png">
-
-  <!-- Favicon -->
-  <link rel="icon" type="image/png" href="favicon.png"/>
-
-  <title>hulisi_premium</title>
-  <link rel="manifest" href="manifest.json">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hulisi - Find Card Offers</title>
+  <style>
+    :root {
+      --theme: #6366f1;
+      --theme-light: #818cf8;
+      --theme-lighter: #c7d2fe;
+      --theme-lightest: #eef2ff;
+      --theme-dark: #4f46e5;
+      --text: #1f2937;
+      --text-muted: #6b7280;
+      --bg: #ffffff;
+      --card-bg: #f9fafb;
+      --border: #e5e7eb;
+      --zomato: #e23744;
+      --eazydiner: #f97316;
+      --bookmyshow: #c41230;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; color: var(--text); background: var(--bg); line-height: 1.5; }
+    
+    /* Hero */
+    .hero { min-height: 70vh; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 2rem; background: linear-gradient(135deg, var(--theme-lightest) 0%, var(--bg) 100%); }
+    .hero h1 { font-size: 2.5rem; font-weight: 700; color: var(--theme-dark); margin-bottom: 1rem; }
+    .hero p { font-size: 1.1rem; color: var(--text-muted); max-width: 320px; margin-bottom: 2rem; }
+    .btn { background: var(--theme); color: white; border: none; padding: 1rem 2.5rem; font-size: 1.1rem; font-weight: 600; border-radius: 50px; cursor: pointer; transition: background 0.2s, transform 0.1s; }
+    .btn:hover { background: var(--theme-dark); }
+    .btn:active { transform: scale(0.98); }
+    
+    /* Card Selection */
+    .selection { padding: 1.5rem; display: none; }
+    .selection.active { display: block; }
+    .search-bar { position: sticky; top: 0; background: var(--bg); padding: 1rem 0; z-index: 10; border-bottom: 1px solid var(--border); }
+    .search-input-wrap { display: flex; flex-wrap: wrap; gap: 0.5rem; align-items: center; padding: 0.75rem 1rem; border: 2px solid var(--border); border-radius: 12px; background: var(--card-bg); min-height: 52px; }
+    .search-input-wrap:focus-within { border-color: var(--theme-light); }
+    .search-input { flex: 1; min-width: 120px; border: none; background: transparent; font-size: 1rem; outline: none; }
+    .chip { display: inline-flex; align-items: center; gap: 0.25rem; padding: 0.35rem 0.75rem; background: var(--theme-lighter); color: var(--theme-dark); border-radius: 50px; font-size: 0.85rem; font-weight: 500; cursor: pointer; transition: background 0.2s; }
+    .chip:hover { background: var(--theme-light); color: white; }
+    .chip .remove { font-size: 1.1rem; line-height: 1; margin-left: 0.25rem; }
+    
+    /* Bank Sections */
+    .banks { margin-top: 1rem; }
+    .bank-section { margin-bottom: 1.5rem; }
+    .bank-name { font-size: 0.9rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.5rem; text-transform: uppercase; letter-spacing: 0.5px; }
+    .cards-wrap { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+    .card-chip { padding: 0.5rem 1rem; background: var(--card-bg); border: 1px solid var(--border); border-radius: 50px; font-size: 0.9rem; cursor: pointer; transition: all 0.2s; }
+    .card-chip:hover { border-color: var(--theme-light); }
+    .card-chip.selected { background: var(--theme); color: white; border-color: var(--theme); }
+    .card-chip .card-type { font-size: 0.75rem; color: var(--text-muted); margin-left: 0.25rem; }
+    .card-chip.selected .card-type { color: var(--theme-lighter); }
+    
+    /* Show Offers Button */
+    .show-offers-wrap { position: fixed; bottom: 0; left: 0; right: 0; padding: 1rem; background: linear-gradient(transparent, var(--bg) 30%); display: none; }
+    .show-offers-wrap.active { display: block; }
+    .btn-block { width: 100%; }
+    
+    /* Offers Screen */
+    .offers { display: none; padding-bottom: 2rem; }
+    .offers.active { display: block; }
+    .offers-header { position: sticky; top: 0; background: var(--bg); padding: 1rem; border-bottom: 1px solid var(--border); z-index: 10; }
+    .offers-header-top { display: flex; align-items: center; gap: 1rem; margin-bottom: 0.75rem; }
+    .back-btn { background: none; border: none; font-size: 1.5rem; cursor: pointer; padding: 0.25rem; color: var(--theme); }
+    .offers-header h2 { font-size: 1.25rem; font-weight: 600; }
+    .selected-chips { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+    .selected-chips .chip { background: var(--theme-lightest); font-size: 0.8rem; }
+    
+    /* Carousel */
+    .carousel { display: flex; gap: 1rem; overflow-x: auto; padding: 1rem; scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch; }
+    .carousel::-webkit-scrollbar { display: none; }
+    .carousel-card { flex: 0 0 280px; scroll-snap-align: start; border-radius: 16px; padding: 1.5rem; color: white; position: relative; overflow: hidden; }
+    .carousel-card.zomato { background: linear-gradient(135deg, var(--zomato) 0%, #ff6b6b 100%); }
+    .carousel-card.eazydiner { background: linear-gradient(135deg, var(--eazydiner) 0%, #fb923c 100%); }
+    .carousel-card.bookmyshow { background: linear-gradient(135deg, var(--bookmyshow) 0%, #e11d48 100%); }
+    .carousel-card.disabled { background: #9ca3af; opacity: 0.6; }
+    .carousel-card .source-name { font-size: 0.9rem; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; opacity: 0.9; margin-bottom: 1rem; }
+    .carousel-card .offer-value { font-size: 1.75rem; font-weight: 700; margin-bottom: 0.5rem; }
+    .carousel-card .offer-detail { font-size: 0.9rem; opacity: 0.9; }
+    .carousel-card .card-name { position: absolute; bottom: 1rem; right: 1rem; font-size: 0.8rem; opacity: 0.8; }
+    
+    /* Offer List */
+    .offers-list { padding: 1rem; }
+    .offers-list h3 { font-size: 1rem; color: var(--text-muted); margin-bottom: 1rem; }
+    .offer-card { background: var(--card-bg); border: 1px solid var(--border); border-radius: 12px; margin-bottom: 0.75rem; overflow: hidden; }
+    .offer-main { padding: 1rem; cursor: pointer; }
+    .offer-top { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 0.5rem; }
+    .offer-source { display: flex; align-items: center; gap: 0.5rem; }
+    .source-icon { width: 28px; height: 28px; border-radius: 6px; display: flex; align-items: center; justify-content: center; color: white; font-weight: 700; font-size: 0.8rem; }
+    .source-icon.zomato { background: var(--zomato); }
+    .source-icon.eazydiner { background: var(--eazydiner); }
+    .source-icon.bookmyshow { background: var(--bookmyshow); }
+    .source-label { font-weight: 600; font-size: 0.95rem; }
+    .offer-discount { font-weight: 700; color: var(--theme-dark); font-size: 1.1rem; }
+    .offer-meta { display: flex; justify-content: space-between; align-items: flex-end; }
+    .offer-details { font-size: 0.85rem; color: var(--text-muted); }
+    .offer-details span { display: block; margin-top: 0.15rem; }
+    .view-detail { color: var(--theme); font-size: 0.85rem; font-weight: 500; white-space: nowrap; }
+    .offer-expanded { padding: 0 1rem 1rem; display: none; border-top: 1px solid var(--border); margin-top: 0.5rem; padding-top: 0.75rem; }
+    .offer-expanded.active { display: block; }
+    .offer-text { font-size: 0.85rem; color: var(--text-muted); line-height: 1.6; }
+    .offer-card-name { font-size: 0.8rem; color: var(--theme); margin-top: 0.5rem; font-weight: 500; }
+    
+    /* Empty State */
+    .empty-state { text-align: center; padding: 3rem 1rem; color: var(--text-muted); }
+    .empty-state svg { width: 64px; height: 64px; margin-bottom: 1rem; opacity: 0.5; }
+    
+    /* Utilities */
+    .hidden { display: none !important; }
+  </style>
 </head>
 <body>
-  <!--
-    You can customize the "flutter_bootstrap.js" script.
-    This is useful to provide a custom configuration to the Flutter loader
-    or to give the user feedback during the initialization process.
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <h1>Hulisi</h1>
+    <p>Quickly find offers on your card. No login, no card details, full privacy.</p>
+    <button class="btn" id="findOffersBtn">Find Offers</button>
+  </section>
 
-    For more details:
-    * https://docs.flutter.dev/platform-integration/web/initialization
-  -->
-  <script src="flutter_bootstrap.js" async></script>
+  <!-- Card Selection Section -->
+  <section class="selection" id="selection">
+    <div class="search-bar">
+      <div class="search-input-wrap" id="searchWrap">
+        <input type="text" class="search-input" id="searchInput" placeholder="Search bank or card...">
+      </div>
+    </div>
+    <div class="banks" id="banksList"></div>
+    <div class="show-offers-wrap" id="showOffersWrap">
+      <button class="btn btn-block" id="showOffersBtn">Show Offers</button>
+    </div>
+  </section>
+
+  <!-- Offers Section -->
+  <section class="offers" id="offers">
+    <div class="offers-header">
+      <div class="offers-header-top">
+        <button class="back-btn" id="backBtn">←</button>
+        <h2>Your Offers</h2>
+      </div>
+      <div class="selected-chips" id="offerChips"></div>
+    </div>
+    <div class="carousel" id="carousel"></div>
+    <div class="offers-list">
+      <h3>All Offers</h3>
+      <div id="offersList"></div>
+    </div>
+  </section>
+
+  <script>
+    const STORAGE_KEY = 'hulisi_selected_cards';
+    let data = {};
+    let selectedCards = new Set();
+
+    // Initialize
+    async function init() {
+      try {
+        const res = await fetch('./combined.json');
+        data = await res.json();
+        loadSavedCards();
+        renderBanks();
+        if (selectedCards.size > 0) {
+          showOffers();
+        }
+      } catch (e) {
+        console.error('Failed to load data:', e);
+      }
+    }
+
+    function loadSavedCards() {
+      const saved = localStorage.getItem(STORAGE_KEY);
+      if (saved) {
+        selectedCards = new Set(JSON.parse(saved));
+        // Validate saved cards still exist
+        selectedCards = new Set([...selectedCards].filter(k => data[k]));
+      }
+    }
+
+    function saveCards() {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify([...selectedCards]));
+    }
+
+    // Organize data by bank
+    function getBankGroups() {
+      const banks = {};
+      Object.entries(data).forEach(([key, card]) => {
+        if (!banks[card.bankName]) banks[card.bankName] = [];
+        banks[card.bankName].push({ key, ...card });
+      });
+      return Object.entries(banks).sort((a, b) => a[0].localeCompare(b[0]));
+    }
+
+    // Render bank sections
+    function renderBanks(filter = '') {
+      const banksList = document.getElementById('banksList');
+      const groups = getBankGroups();
+      const filterLower = filter.toLowerCase();
+
+      banksList.innerHTML = groups.map(([bankName, cards]) => {
+        const filteredCards = filter 
+          ? cards.filter(c => c.bankName.toLowerCase().includes(filterLower) || c.cardName.toLowerCase().includes(filterLower))
+          : cards;
+        if (filteredCards.length === 0) return '';
+        
+        return `
+          <div class="bank-section">
+            <div class="bank-name">${bankName}</div>
+            <div class="cards-wrap">
+              ${filteredCards.map(c => `
+                <div class="card-chip ${selectedCards.has(c.key) ? 'selected' : ''}" data-key="${c.key}">
+                  ${c.cardName}<span class="card-type">${c.cardType || ''}</span>
+                </div>
+              `).join('')}
+            </div>
+          </div>
+        `;
+      }).join('');
+
+      // Bind click events
+      banksList.querySelectorAll('.card-chip').forEach(chip => {
+        chip.onclick = () => toggleCard(chip.dataset.key);
+      });
+    }
+
+    // Toggle card selection
+    function toggleCard(key) {
+      if (selectedCards.has(key)) {
+        selectedCards.delete(key);
+      } else {
+        selectedCards.add(key);
+      }
+      updateUI();
+    }
+
+    // Update all UI elements
+    function updateUI() {
+      // Update card chips in banks list
+      document.querySelectorAll('.card-chip').forEach(chip => {
+        chip.classList.toggle('selected', selectedCards.has(chip.dataset.key));
+      });
+
+      // Update search bar chips
+      renderSearchChips();
+
+      // Show/hide offers button
+      document.getElementById('showOffersWrap').classList.toggle('active', selectedCards.size > 0);
+    }
+
+    function renderSearchChips() {
+      const wrap = document.getElementById('searchWrap');
+      const input = document.getElementById('searchInput');
+      
+      // Remove existing chips
+      wrap.querySelectorAll('.chip').forEach(c => c.remove());
+      
+      // Add chips for selected cards
+      [...selectedCards].forEach(key => {
+        const card = data[key];
+        if (!card) return;
+        const chip = document.createElement('span');
+        chip.className = 'chip';
+        chip.innerHTML = `${card.bankName} ${card.cardName}<span class="remove">×</span>`;
+        chip.onclick = () => toggleCard(key);
+        wrap.insertBefore(chip, input);
+      });
+    }
+
+    // Get offers for selected cards
+    function getOffers() {
+      const offers = [];
+      selectedCards.forEach(key => {
+        const card = data[key];
+        if (!card) return;
+        card.discounts.forEach(d => {
+          offers.push({
+            ...d,
+            cardKey: key,
+            cardName: card.cardName,
+            bankName: card.bankName,
+            cardType: card.cardType
+          });
+        });
+      });
+      return offers;
+    }
+
+    // Get best offer per source
+    function getBestOffers(offers) {
+      const sources = ['Zomato', 'EazyDiner', 'BookMyShow'];
+      return sources.map(source => {
+        const sourceOffers = offers.filter(o => o.source === source);
+        if (sourceOffers.length === 0) return { source, offer: null };
+        // Sort by maxDiscount descending
+        sourceOffers.sort((a, b) => (b.maxDiscount || 0) - (a.maxDiscount || 0));
+        return { source, offer: sourceOffers[0] };
+      });
+    }
+
+    // Render offers screen
+    function showOffers() {
+      saveCards();
+      
+      document.getElementById('hero').classList.add('hidden');
+      document.getElementById('selection').classList.remove('active');
+      document.getElementById('offers').classList.add('active');
+
+      const offers = getOffers();
+      const bestOffers = getBestOffers(offers);
+
+      // Render header chips
+      const chipsHtml = [...selectedCards].map(key => {
+        const card = data[key];
+        return `<span class="chip" data-key="${key}">${card.bankName} ${card.cardName}</span>`;
+      }).join('');
+      document.getElementById('offerChips').innerHTML = chipsHtml;
+      document.getElementById('offerChips').querySelectorAll('.chip').forEach(chip => {
+        chip.onclick = () => showSelection();
+      });
+
+      // Render carousel
+      document.getElementById('carousel').innerHTML = bestOffers.map(({ source, offer }) => {
+        const cls = source.toLowerCase().replace(/\s/g, '');
+        if (!offer) {
+          return `
+            <div class="carousel-card disabled">
+              <div class="source-name">${source}</div>
+              <div class="offer-value">No Offer</div>
+              <div class="offer-detail">No matching offers for your cards</div>
+            </div>
+          `;
+        }
+        return `
+          <div class="carousel-card ${cls}">
+            <div class="source-name">${source}</div>
+            <div class="offer-value">${offer.offer || `Up to ₹${offer.maxDiscount}`}</div>
+            <div class="offer-detail">${offer.maxDiscount ? `Max ₹${offer.maxDiscount}` : ''} ${offer.minBillAmount ? `• Min ₹${offer.minBillAmount}` : ''}</div>
+            <div class="card-name">${offer.bankName} ${offer.cardName}</div>
+          </div>
+        `;
+      }).join('');
+
+      // Render offers list (sorted by maxDiscount)
+      const sortedOffers = [...offers].sort((a, b) => (b.maxDiscount || 0) - (a.maxDiscount || 0));
+      document.getElementById('offersList').innerHTML = sortedOffers.length === 0 
+        ? `<div class="empty-state"><p>No offers found for selected cards</p></div>`
+        : sortedOffers.map((o, i) => {
+          const cls = o.source.toLowerCase().replace(/\s/g, '');
+          const usageText = o.usageLimit ? `${o.usageLimit.maxUsageCount}x/${o.usageLimit.durationInMonths}mo` : '';
+          const applicableText = o.applicableOn ? o.applicableOn.join(', ') : '';
+          return `
+            <div class="offer-card" data-index="${i}">
+              <div class="offer-main">
+                <div class="offer-top">
+                  <div class="offer-source">
+                    <div class="source-icon ${cls}">${o.source[0]}</div>
+                    <span class="source-label">${o.source}</span>
+                  </div>
+                  <div class="offer-discount">${o.offer || `₹${o.maxDiscount} off`}</div>
+                </div>
+                <div class="offer-meta">
+                  <div class="offer-details">
+                    ${applicableText ? `<span>On: ${applicableText}</span>` : ''}
+                    ${o.maxDiscount ? `<span>Max: ₹${o.maxDiscount}</span>` : ''}
+                    ${o.minBillAmount ? `<span>Min bill: ₹${o.minBillAmount}</span>` : ''}
+                    ${usageText ? `<span>Limit: ${usageText}</span>` : ''}
+                  </div>
+                  <span class="view-detail">View Details ▾</span>
+                </div>
+              </div>
+              <div class="offer-expanded">
+                <p class="offer-text">${o.offerText || 'No additional details'}</p>
+                <p class="offer-card-name">Card: ${o.bankName} ${o.cardName} ${o.cardType || ''}</p>
+              </div>
+            </div>
+          `;
+        }).join('');
+
+      // Bind expand/collapse
+      document.querySelectorAll('.offer-card').forEach(card => {
+        card.querySelector('.offer-main').onclick = () => {
+          card.querySelector('.offer-expanded').classList.toggle('active');
+          const btn = card.querySelector('.view-detail');
+          btn.textContent = card.querySelector('.offer-expanded').classList.contains('active') ? 'Hide Details ▴' : 'View Details ▾';
+        };
+      });
+    }
+
+    // Show selection screen
+    function showSelection() {
+      document.getElementById('hero').classList.add('hidden');
+      document.getElementById('offers').classList.remove('active');
+      document.getElementById('selection').classList.add('active');
+      renderBanks();
+      updateUI();
+    }
+
+    // Event listeners
+    document.getElementById('findOffersBtn').onclick = showSelection;
+    document.getElementById('showOffersBtn').onclick = showOffers;
+    document.getElementById('backBtn').onclick = showSelection;
+    document.getElementById('searchInput').oninput = (e) => renderBanks(e.target.value);
+
+    // Start
+    init();
+  </script>
 </body>
 </html>

@@ -1,0 +1,3514 @@
+{
+  "AU Small Finance Bank-Any-Credit": {
+    "cardName": "Any",
+    "bankName": "AU Small Finance Bank",
+    "cardType": "Credit",
+    "discounts": [
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "offer": "Discount available",
+        "maxDiscount": 500,
+        "minBillAmount": 5000,
+        "usageLimit": {
+          "maxUsageCount": 1,
+          "durationInMonths": 1
+        },
+        "applicableOn": null,
+        "source": "EazyDiner",
+        "offerText": "AU Small Finance Bank Limited Flat ₹500 Min. bill of ₹5000. Valid once per card per month Offer is applicable on AU Infinite Visa Credit Card. Min bill of ₹ 5000"
+      }
+    ]
+  },
+  "AU Small Finance Bank-Any-Debit": {
+    "cardName": "Any",
+    "bankName": "AU Small Finance Bank",
+    "cardType": "Debit",
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "20% off",
+        "maxDiscount": 100,
+        "minBillAmount": 300,
+        "usageLimit": {
+          "maxUsageCount": 1,
+          "durationInMonths": 1
+        },
+        "applicableOn": [
+          "movies"
+        ],
+        "source": "BookMyShow",
+        "offerText": "Get 20% Off upto INR 100 on minimum transaction of INR300 & above on AU Debit Card. | Minimum 2 tickets needs to be booked to avail the offer. | Offer valid on all days of the week | Offer can be availed once in a calendar month on Movies only | Offer valid till 31st March 2026"
+      },
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "offer": "10% off",
+        "maxDiscount": 500,
+        "minBillAmount": 1500,
+        "usageLimit": {
+          "maxUsageCount": 1,
+          "durationInMonths": 1
+        },
+        "applicableOn": null,
+        "source": "Zomato",
+        "offerText": "Get 10% OFF up to ₹500 using select AU Bank Debit Cards Valid on final payable amount of ₹1500 or more Offer applicable on select AU Debit Card except AU IVY Debit Card Offer valid once per card during the offer period Offer applicable only on final billable amount net of other discounts (excluding convenience fee, cover charges and tips) Restaurants applicable under this program can be found on the app & are subject to change from time to time Other T&Cs may apply"
+      }
+    ]
+  },
+  "AU Small Finance Bank-IVY-Debit": {
+    "cardName": "IVY",
+    "bankName": "AU Small Finance Bank",
+    "cardType": "Debit",
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "Buy 1 Get 1 Free. Minimum 2 tickets",
+        "maxDiscount": 500,
+        "minBillAmount": null,
+        "usageLimit": {
+          "maxUsageCount": 2,
+          "durationInMonths": 1
+        },
+        "applicableOn": [
+          "events",
+          "concerts",
+          "plays",
+          "sports"
+        ],
+        "source": "BookMyShow",
+        "offerText": "AU ivy Debit Card Offer | Buy One ticket and Get One Free upto INR 500 with AU ivy Debit Card. | Customer can avail maximum 6 free tickets for movies & 2 free tickets for non movies tickets in a calendar month i.e total 8 Tickets in a calendar month | Maximum discount per ticket is capped at INR 500 | Customers can avail free Movie or Non-Movie tickets in a single transaction or multiple transactions. | Minimum 2 tickets need to be booked in order to avail the offer. | Offer valid on all days of"
+      },
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "offer": "10% off",
+        "maxDiscount": 750,
+        "minBillAmount": 2500,
+        "usageLimit": {
+          "maxUsageCount": 2,
+          "durationInMonths": 1
+        },
+        "applicableOn": null,
+        "source": "Zomato",
+        "offerText": "Get 10% OFF up to ₹750 using select AU Bank IVY Debit Cards Valid on final payable amount of ₹2500 or more Offer applicable on select AU IVY Debit Card Offer valid twice per card during the offer period Offer applicable only on final billable amount net of other discounts (excluding convenience fee, cover charges and tips) Restaurants applicable under this program can be found on the app & are subject to change from time to time Other T&Cs may apply"
+      }
+    ]
+  },
+  "AU Small Finance Bank-Zenith-Credit": {
+    "cardName": "Zenith",
+    "bankName": "AU Small Finance Bank",
+    "cardType": "Credit",
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "Buy 1 Get 1 Free. Minimum 2 tickets",
+        "maxDiscount": 500,
+        "minBillAmount": null,
+        "usageLimit": null,
+        "applicableOn": [
+          "movies",
+          "events",
+          "concerts",
+          "plays",
+          "sports"
+        ],
+        "source": "BookMyShow",
+        "offerText": "Buy One ticket and Get One Free upto INR 500 with AU Zenith+ Credit Card. | Customer can avail maximum 4 free tickets for movies/non movies tickets in a quarter | Maximum discount per ticket is capped at INR 500 | Customers can avail free Movie or Non-Movie tickets in a single transaction or multiple transactions. | Minimum 2 tickets need to be booked in order to avail the offer. | Offer valid on all days of the week | Offer is valid on Movies, Events, Concerts, Plays, Sports and Activities. Exc"
+      }
+    ]
+  },
+  "Amazon Pay-Any-Credit": {
+    "cardName": "Any",
+    "bankName": "Amazon Pay",
+    "cardType": "Credit",
+    "discounts": [
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "offer": "Flat ₹300 off",
+        "maxDiscount": 300,
+        "minBillAmount": 4000,
+        "usageLimit": {
+          "maxUsageCount": 1,
+          "durationInMonths": 1
+        },
+        "applicableOn": null,
+        "source": "Zomato",
+        "offerText": "Extra Flat ₹300 OFF using Amazon Pay ICICI Bank Credit Card Valid on final payable amount of ₹4000 or more Offer valid once per user during the offer period Offer applicable only on final billable amount net of other discounts (excluding tips) Restaurants applicable under this program can be found on the app & are subject to change from time to time Other T&Cs may apply"
+      }
+    ]
+  },
+  "American Express-Platinum-Any": {
+    "cardName": "Platinum",
+    "bankName": "American Express",
+    "cardType": null,
+    "discounts": [
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "offer": "25% off",
+        "maxDiscount": 5000,
+        "minBillAmount": null,
+        "usageLimit": {
+          "maxUsageCount": 1,
+          "durationInMonths": 1
+        },
+        "applicableOn": null,
+        "source": "Zomato",
+        "offerText": "Get 25% OFF up to ₹5000 using American Express Platinum Card Valid on final payable amount through the app Offer valid only on American Express Platinum Card & Centurion Card issued by American Express Banking Corp in India Discount capped at INR 5,000 per eligible transaction, applicable every Wednesday Customers can avail a maximum cumulative discount of INR 10,000 per card per month during the offer period Offer valid only once per card per Wednesday during the offer period Offer applicable o"
+      }
+    ]
+  },
+  "Andhra Pradesh State Cooperative Bank-Any-Debit": {
+    "cardName": "Any",
+    "bankName": "Andhra Pradesh State Cooperative Bank",
+    "cardType": "Debit",
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "30% off",
+        "maxDiscount": 150,
+        "minBillAmount": 100,
+        "usageLimit": {
+          "maxUsageCount": 2,
+          "durationInMonths": 1
+        },
+        "applicableOn": [
+          "movies",
+          "events",
+          "concerts",
+          "plays",
+          "sports"
+        ],
+        "source": "BookMyShow",
+        "offerText": "Customers transacting on BMS using Get 30% discount upto INR 150 on BookMyShow using Andhra Pradesh State Cooperative Bank Debit Card on a minimum transaction value of INR 100. | This offer can be availed Twice in a calendar month per card user as per the eligibility. | Offer is valid Movies, Events, Concerts, Plays, Sports, Activities. Excluding BMS Stream and FnB | Offer can be availed all days of the week"
+      }
+    ]
+  },
+  "Andhra Pradesh State Cooperative Bank-Platinum-Debit": {
+    "cardName": "Platinum",
+    "bankName": "Andhra Pradesh State Cooperative Bank",
+    "cardType": "Debit",
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "Buy 1 Get 1 Free",
+        "maxDiscount": 300,
+        "minBillAmount": 100,
+        "usageLimit": {
+          "maxUsageCount": 2,
+          "durationInMonths": 1
+        },
+        "applicableOn": [
+          "movies"
+        ],
+        "source": "BookMyShow",
+        "offerText": "| Buy one ticket and get one ticket free upto INR 300 using Andhra Pradesh State Cooperative Bank Platinum Debit Card | This offer can be availed twice in a calendar month per card user as per the eligibility. | Minimum transaction value INR 100 | Offer is valid Movies only | Offer can be availed all days of the week"
+      }
+    ]
+  },
+  "Axis Bank-Any-Any": {
+    "cardName": "Any",
+    "bankName": "Axis Bank",
+    "cardType": null,
+    "discounts": [
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "offer": "15% off",
+        "maxDiscount": 500,
+        "minBillAmount": 2500,
+        "usageLimit": {
+          "maxUsageCount": 1,
+          "durationInMonths": 1
+        },
+        "applicableOn": null,
+        "source": "EazyDiner",
+        "offerText": "Axis Bank 15% Off upto ₹500 Min. bill of ₹2500. Valid once per month Applicable on: All other credit and debit cards EXCLUDING Olympus, Reserve, Magnus Burgundy, Burgundy Private Credit Card and Burgundy Private Debit card and Burgundy Debit Card. Min bill of ₹ 2500"
+      }
+    ]
+  },
+  "Axis Bank-Any-Debit": {
+    "cardName": "Any",
+    "bankName": "Axis Bank",
+    "cardType": "Debit",
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "Discount available",
+        "maxDiscount": null,
+        "minBillAmount": null,
+        "usageLimit": null,
+        "applicableOn": [
+          "movies"
+        ],
+        "source": "BookMyShow",
+        "offerText": "Buy One ticket & Get One Free with Axis Bank E-Debit cards | Each customer can avail 1 complimentary ticket with the Maximum discount value of INR 200 | This offer is only applicable on Movies"
+      }
+    ]
+  },
+  "Axis Bank-Burgundy-Any": {
+    "cardName": "Burgundy",
+    "bankName": "Axis Bank",
+    "cardType": null,
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "Discount available",
+        "maxDiscount": null,
+        "minBillAmount": null,
+        "usageLimit": {
+          "maxUsageCount": 4,
+          "durationInMonths": 1
+        },
+        "applicableOn": [
+          "movies"
+        ],
+        "source": "BookMyShow",
+        "offerText": "About The Offer: | • Buy One ticket & Get One Free (BOGO). This offer is applicable on Axis Bank Burgundy & Burgundy Private Cards. | • Axis Burgundy customers can avail 4 free tickets in a month for movies and 4 Non movies. | Movies : Cap of INR 500/- per discounted ticket OR actual free ticket value, whichever is lower | Non-Movies : Cap of INR 1000/- per discounted ticket OR actual free ticket value, whichever is lower. | • Customer can avail only one free ticket per transaction in a day | Fo"
+      },
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "offer": "30% off",
+        "maxDiscount": 1000,
+        "minBillAmount": 3000,
+        "usageLimit": {
+          "maxUsageCount": 1,
+          "durationInMonths": 1
+        },
+        "applicableOn": null,
+        "source": "EazyDiner",
+        "offerText": "Axis Bank 30% Off upto ₹1000 Min. bill of ₹3000. Valid once per month. Applicable on : Axis Bank Olympus Credit, Axis Bank Magnus Burgundy Credit Card, Axis Bank Reserve Credit Card, Burgundy Private Credit Card and Burgundy Private Debit card only Min bill of ₹ 3000"
+      }
+    ]
+  },
+  "Axis Bank-Burgundy-Credit": {
+    "cardName": "Burgundy",
+    "bankName": "Axis Bank",
+    "cardType": "Credit",
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "Discount available",
+        "maxDiscount": null,
+        "minBillAmount": null,
+        "usageLimit": null,
+        "applicableOn": [
+          "movies"
+        ],
+        "source": "BookMyShow",
+        "offerText": "Buy One ticket & Get One Free. This offer is applicable only on Axis Bank Burgundy Private and Axis Reserve Credit Cards | Each customer can avail maximum 5 free tickets for movies & 5 free tickets for non movies tickets in a month | Each customer can get a maximum discount of INR 500 or the discount amount whichever is less for movies per ticket and INR 1000 or the discount amount whichever is less for non-movies per ticket, for each free ticket that is availed under this offer"
+      }
+    ]
+  },
+  "Axis Bank-Burgundy-Debit": {
+    "cardName": "Burgundy",
+    "bankName": "Axis Bank",
+    "cardType": "Debit",
+    "discounts": [
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "offer": "25% off",
+        "maxDiscount": 800,
+        "minBillAmount": 2500,
+        "usageLimit": {
+          "maxUsageCount": 1,
+          "durationInMonths": 1
+        },
+        "applicableOn": null,
+        "source": "EazyDiner",
+        "offerText": "Axis Bank 25% Off upto ₹800 Min. bill of ₹2500. Valid once per month Applicable on: Burgundy Debit Card Min bill of ₹ 2500"
+      }
+    ]
+  },
+  "Axis Bank-Delight-Debit": {
+    "cardName": "Delight",
+    "bankName": "Axis Bank",
+    "cardType": "Debit",
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "50% off",
+        "maxDiscount": 250,
+        "minBillAmount": null,
+        "usageLimit": null,
+        "applicableOn": [
+          "movies"
+        ],
+        "source": "BookMyShow",
+        "offerText": "Get 50% discount up to Rs 250 with Axis Delight Debit cards | Customers can use the offer multiple times till they reach the maximum value of Rs 250 | This offer is only applicable on Movies"
+      }
+    ]
+  },
+  "Axis Bank-Indigo-Credit": {
+    "cardName": "Indigo",
+    "bankName": "Axis Bank",
+    "cardType": "Credit",
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "Discount available",
+        "maxDiscount": null,
+        "minBillAmount": null,
+        "usageLimit": null,
+        "applicableOn": [
+          "movies"
+        ],
+        "source": "BookMyShow",
+        "offerText": "About The Offer: | • Buy One Ticket, Get One Free using Axis Bank Indigo Credit Card | • Axis Bank Indigo Credit Card can avail a maximum discount of INR 250 for movies and Non Movies | • Customer can avail one free ticket in a month | For offer details, please refer Terms & Conditions"
+      }
+    ]
+  },
+  "Axis Bank-Magnus-Any": {
+    "cardName": "Magnus",
+    "bankName": "Axis Bank",
+    "cardType": null,
+    "discounts": [
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "offer": "30% off",
+        "maxDiscount": 1000,
+        "minBillAmount": 3000,
+        "usageLimit": {
+          "maxUsageCount": 1,
+          "durationInMonths": 1
+        },
+        "applicableOn": null,
+        "source": "EazyDiner",
+        "offerText": "Axis Bank 30% Off upto ₹1000 Min. bill of ₹3000. Valid once per month. Applicable on : Axis Bank Olympus Credit, Axis Bank Magnus Burgundy Credit Card, Axis Bank Reserve Credit Card, Burgundy Private Credit Card and Burgundy Private Debit card only Min bill of ₹ 3000"
+      }
+    ]
+  },
+  "Axis Bank-Neo-Credit": {
+    "cardName": "Neo",
+    "bankName": "Axis Bank",
+    "cardType": "Credit",
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "10% off",
+        "maxDiscount": 100,
+        "minBillAmount": null,
+        "usageLimit": null,
+        "applicableOn": null,
+        "source": "BookMyShow",
+        "offerText": "Get 10% off up to Rs 100 on your transaction with your Axis Bank Neo Credit Card | Get 10% off up to Rs 100 on your transaction with your Axis Bank Neo Credit Card | Get 10% off up to Rs 100 on your transaction with your IndianOil Axis Bank Credit Card | Get 10% off up to Rs 100 on your transaction with your IndianOil Axis Bank Credit Card | Offer valid till 31st March, 2026"
+      }
+    ]
+  },
+  "Axis Bank-Olympus-Any": {
+    "cardName": "Olympus",
+    "bankName": "Axis Bank",
+    "cardType": null,
+    "discounts": [
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "offer": "30% off",
+        "maxDiscount": 1000,
+        "minBillAmount": 3000,
+        "usageLimit": {
+          "maxUsageCount": 1,
+          "durationInMonths": 1
+        },
+        "applicableOn": null,
+        "source": "EazyDiner",
+        "offerText": "Axis Bank 30% Off upto ₹1000 Min. bill of ₹3000. Valid once per month. Applicable on : Axis Bank Olympus Credit, Axis Bank Magnus Burgundy Credit Card, Axis Bank Reserve Credit Card, Burgundy Private Credit Card and Burgundy Private Debit card only Min bill of ₹ 3000"
+      }
+    ]
+  },
+  "Axis Bank-Olympus-Credit": {
+    "cardName": "Olympus",
+    "bankName": "Axis Bank",
+    "cardType": "Credit",
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "Discount available",
+        "maxDiscount": null,
+        "minBillAmount": null,
+        "usageLimit": null,
+        "applicableOn": [
+          "movies"
+        ],
+        "source": "BookMyShow",
+        "offerText": "About The Offer: | • Buy One Ticket, Get One Free using Axis Bank Olympus Credit Card | • Axis Bank Olympus Credit Card can avail a maximum discount of INR 650 for movies per ticket and INR 1000 for non-movies per ticket, for each free ticket that is availed under this offer | • Customer can avail two free ticket in a month | For offer details, please refer Terms & Conditions"
+      }
+    ]
+  },
+  "Axis Bank-Priority-Debit": {
+    "cardName": "Priority",
+    "bankName": "Axis Bank",
+    "cardType": "Debit",
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "Up to ₹350 off",
+        "maxDiscount": 350,
+        "minBillAmount": null,
+        "usageLimit": null,
+        "applicableOn": [
+          "movies"
+        ],
+        "source": "BookMyShow",
+        "offerText": "· Get discount up to Rs 350 on movie tickets on Axis Bank Priority Debit cards | · Offer valid all days of the week | · For offer details, please refer Terms & Conditions |"
+      }
+    ]
+  },
+  "Axis Bank-Private-Any": {
+    "cardName": "Private",
+    "bankName": "Axis Bank",
+    "cardType": null,
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "Discount available",
+        "maxDiscount": null,
+        "minBillAmount": null,
+        "usageLimit": {
+          "maxUsageCount": 4,
+          "durationInMonths": 1
+        },
+        "applicableOn": [
+          "movies"
+        ],
+        "source": "BookMyShow",
+        "offerText": "About The Offer: | • Buy One ticket & Get One Free (BOGO). This offer is applicable on Axis Bank Burgundy & Burgundy Private Cards. | • Axis Burgundy customers can avail 4 free tickets in a month for movies and 4 Non movies. | Movies : Cap of INR 500/- per discounted ticket OR actual free ticket value, whichever is lower | Non-Movies : Cap of INR 1000/- per discounted ticket OR actual free ticket value, whichever is lower. | • Customer can avail only one free ticket per transaction in a day | Fo"
+      },
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "offer": "30% off",
+        "maxDiscount": 1000,
+        "minBillAmount": 3000,
+        "usageLimit": {
+          "maxUsageCount": 1,
+          "durationInMonths": 1
+        },
+        "applicableOn": null,
+        "source": "EazyDiner",
+        "offerText": "Axis Bank 30% Off upto ₹1000 Min. bill of ₹3000. Valid once per month. Applicable on : Axis Bank Olympus Credit, Axis Bank Magnus Burgundy Credit Card, Axis Bank Reserve Credit Card, Burgundy Private Credit Card and Burgundy Private Debit card only Min bill of ₹ 3000"
+      }
+    ]
+  },
+  "Axis Bank-Reserve-Any": {
+    "cardName": "Reserve",
+    "bankName": "Axis Bank",
+    "cardType": null,
+    "discounts": [
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "offer": "30% off",
+        "maxDiscount": 1000,
+        "minBillAmount": 3000,
+        "usageLimit": {
+          "maxUsageCount": 1,
+          "durationInMonths": 1
+        },
+        "applicableOn": null,
+        "source": "EazyDiner",
+        "offerText": "Axis Bank 30% Off upto ₹1000 Min. bill of ₹3000. Valid once per month. Applicable on : Axis Bank Olympus Credit, Axis Bank Magnus Burgundy Credit Card, Axis Bank Reserve Credit Card, Burgundy Private Credit Card and Burgundy Private Debit card only Min bill of ₹ 3000"
+      }
+    ]
+  },
+  "Axis Bank-Rewards-Debit": {
+    "cardName": "Rewards",
+    "bankName": "Axis Bank",
+    "cardType": "Debit",
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "5% off",
+        "maxDiscount": null,
+        "minBillAmount": null,
+        "usageLimit": null,
+        "applicableOn": [
+          "movies"
+        ],
+        "source": "BookMyShow",
+        "offerText": "Get 5% discount on Axis Titanium Rewards and Rewards+ debit card when you book for movie tickets | Maximum discount per month is Rs 200 | Offer is valid till 31st March 2026"
+      }
+    ]
+  },
+  "Axis Bank-Titanium-Debit": {
+    "cardName": "Titanium",
+    "bankName": "Axis Bank",
+    "cardType": "Debit",
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "5% off",
+        "maxDiscount": null,
+        "minBillAmount": null,
+        "usageLimit": null,
+        "applicableOn": [
+          "movies"
+        ],
+        "source": "BookMyShow",
+        "offerText": "Get 5% discount on Axis Titanium Rewards and Rewards+ debit card when you book for movie tickets | Maximum discount per month is Rs 200 | Offer is valid till 31st March 2026"
+      }
+    ]
+  },
+  "Axis Bank-Value+-Debit": {
+    "cardName": "Value+",
+    "bankName": "Axis Bank",
+    "cardType": "Debit",
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "Discount available",
+        "maxDiscount": null,
+        "minBillAmount": null,
+        "usageLimit": null,
+        "applicableOn": [
+          "movies"
+        ],
+        "source": "BookMyShow",
+        "offerText": "Buy One ticket & Get One Free with Axis Value+ Debit cards | Each Axis Value+ Debit card customer can avail 1 complimentary ticket with the Maximum discount value of INR 200 | This offer is only applicable on Movies |"
+      }
+    ]
+  },
+  "Bandhan Bank-Any-Any": {
+    "cardName": "Any",
+    "bankName": "Bandhan Bank",
+    "cardType": null,
+    "discounts": [
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "offer": "15% off",
+        "maxDiscount": 750,
+        "minBillAmount": 2000,
+        "usageLimit": {
+          "maxUsageCount": 1,
+          "durationInMonths": 1
+        },
+        "applicableOn": null,
+        "source": "Zomato",
+        "offerText": "Get 15% OFF up to ₹750 using Bandhan Bank Cards. Valid on final payable amount of ₹2000 or more Offer valid once per user during the offer period Offer applicable only on final billable amount net of other discounts (excluding convenience fee, cover charges and tips) Restaurants applicable under this program can be found on the app & are subject to change from time to time Other T&Cs may apply"
+      }
+    ]
+  },
+  "Bandhan Bank-Avni-Debit": {
+    "cardName": "Avni",
+    "bankName": "Bandhan Bank",
+    "cardType": "Debit",
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "Buy 1 Get 1 Free. Minimum 2 tickets",
+        "maxDiscount": 350,
+        "minBillAmount": null,
+        "usageLimit": {
+          "maxUsageCount": 1,
+          "durationInMonths": 1
+        },
+        "applicableOn": [
+          "movies"
+        ],
+        "source": "BookMyShow",
+        "offerText": "Buy One Ticket and Get One Ticket free upto INR 350 with Bandhan Bank Avni Debit cards. | Offer is valid on Movies only | Offer is Not applicable on Events, Concerts, Plays, Sports and Activities, BMS Stream and F&B | Offer valid once per card per month. | Card members can avail maximum discount value up to INR 350. | Customers will have to book minimum 2 tickets to avail the offer | Offer is valid till 31st March 2026"
+      }
+    ]
+  },
+  "Bandhan Bank-Credit Card-Credit": {
+    "cardName": "Credit Card",
+    "bankName": "Bandhan Bank",
+    "cardType": "Credit",
+    "discounts": [
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "offer": "15% off",
+        "maxDiscount": 750,
+        "minBillAmount": null,
+        "usageLimit": {
+          "maxUsageCount": 1,
+          "durationInMonths": 1
+        },
+        "applicableOn": null,
+        "source": "EazyDiner",
+        "offerText": "Bandhan Bank Credit Cards Select 15% Off upto ₹750 No min. bill value. Valid once per card per month Bandhan Bank Flare Credit Cards."
+      }
+    ]
+  },
+  "Bandhan Bank-Elite-Debit": {
+    "cardName": "Elite",
+    "bankName": "Bandhan Bank",
+    "cardType": "Debit",
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "1 free ticket(s)",
+        "maxDiscount": 750,
+        "minBillAmount": null,
+        "usageLimit": {
+          "maxUsageCount": 2,
+          "durationInMonths": 1
+        },
+        "applicableOn": [
+          "movies"
+        ],
+        "source": "BookMyShow",
+        "offerText": "· Buy 1 movie ticket and get 1 free movie ticket up to ₹750 with Bandhan Bank Elite Plus Debit Card. | · Buy 1 movie ticket and get 1 free movie ticket up to ₹500 with Bandhan Bank Elite Debit Card. | · Offer is valid on Movies only | · This offer is only applicable on Bandhan Bank Elite Debit Card (Bin: 53361800) and Bandhan Bank Elite Plus Debit Card (Bin: 54182028) | · Offer is Not applicable on Events, Concerts, Plays, Sports and Activities, BMS Stream and F&B | · Offer valid Twice per card "
+      }
+    ]
+  },
+  "Bandhan Bank-Flare-Credit": {
+    "cardName": "Flare",
+    "bankName": "Bandhan Bank",
+    "cardType": "Credit",
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "25% off",
+        "maxDiscount": 500,
+        "minBillAmount": null,
+        "usageLimit": {
+          "maxUsageCount": 1,
+          "durationInMonths": 1
+        },
+        "applicableOn": [
+          "movies"
+        ],
+        "source": "BookMyShow",
+        "offerText": "> Get 25% discount upto INR500 on Movies using Bandhan Bank Flare Credit Card Offer on BookMyShow.> Maximum value of discount in a transaction will be 25% of the total ticket amount OR INR500, whichever is lower.> BIN: 3561713, 541820503 & 406584123 | | > Get 20% discount upto INR100 on Movies using Bandhan Bank Sparks Credit Card Offer on BookMyShow.> Maximum value of discount in a transaction will be 20% of the total ticket amount OR INR100, whichever is lower.> BIN: 3561441 & 541820121 | Gene"
+      }
+    ]
+  },
+  "Bandhan Bank-Legacy-Debit": {
+    "cardName": "Legacy",
+    "bankName": "Bandhan Bank",
+    "cardType": "Debit",
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "1 free ticket(s)",
+        "maxDiscount": 750,
+        "minBillAmount": null,
+        "usageLimit": null,
+        "applicableOn": [
+          "movies",
+          "events",
+          "concerts",
+          "plays"
+        ],
+        "source": "BookMyShow",
+        "offerText": "· Buy 1 movie ticketandget1Free movie ticket uptoINR750withBandhan Bank Legacy Debit Card. | · Buy 1 non-movie ticketandget1Free non- movie ticket uptoINR1000withBandhan Bank Legacy Debit Card. | | · The offer can be availed for booking of movie and non-movie tickets on BookMyShow app / web | · Offer Period: Offer applicable from 15th November’24 to 14th November’25 (“Offer Period”) | · Offer valid four times per card per month during the offer duration for Movie ticketing | · Offer valid four t"
+      }
+    ]
+  },
+  "Bandhan Bank-Platinum-Debit": {
+    "cardName": "Platinum",
+    "bankName": "Bandhan Bank",
+    "cardType": "Debit",
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "Buy 1 Get 1 Free. Minimum 2 tickets",
+        "maxDiscount": 350,
+        "minBillAmount": null,
+        "usageLimit": {
+          "maxUsageCount": 1,
+          "durationInMonths": 1
+        },
+        "applicableOn": [
+          "movies"
+        ],
+        "source": "BookMyShow",
+        "offerText": "· Buy One Ticket and Get One Ticket free upto INR 350 with Bandhan Bank Mastercard Platinum Plus Debit Card. | Offer is valid on Movies only | Offer is Not applicable on Events, Concerts, Plays, Sports and Activities, BMS Stream and F&B | Offer valid once per card per month. | Card members can avail maximum discount value up to INR 350. | Customers will have to book minimum 2 tickets to avail the offer | Offer is valid till 31st March 2026"
+      }
+    ]
+  },
+  "Bank of Baroda-Any-Credit": {
+    "cardName": "Any",
+    "bankName": "Bank of Baroda",
+    "cardType": "Credit",
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "Flat ₹250 off",
+        "maxDiscount": 250,
+        "minBillAmount": null,
+        "usageLimit": {
+          "maxUsageCount": 1,
+          "durationInMonths": 3
+        },
+        "applicableOn": [
+          "movies"
+        ],
+        "source": "BookMyShow",
+        "offerText": "Customers transacting on BMS using Bank of Baroda Credit Card Offer will be eligible flat INR250 discount. | Offer can be availed once per quarter per card on Movies/Non-movies. | Minimum 2 tickets need to be booked to avail the offer. | Offer valid on all days of the week."
+      },
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "offer": "Flat ₹400 off",
+        "maxDiscount": 400,
+        "minBillAmount": 4000,
+        "usageLimit": {
+          "maxUsageCount": 1,
+          "durationInMonths": 1
+        },
+        "applicableOn": null,
+        "source": "EazyDiner",
+        "offerText": "BOBCARD Flat ₹400 Off Min. bill of ₹4000 Valid once per card per month Offer is valid only for BOBCARD (Credit Card) holders. Min bill of ₹ 4000"
+      }
+    ]
+  },
+  "Bank of Baroda-RuPay-Debit": {
+    "cardName": "RuPay",
+    "bankName": "Bank of Baroda",
+    "cardType": "Debit",
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "Flat ₹250 off",
+        "maxDiscount": 250,
+        "minBillAmount": null,
+        "usageLimit": {
+          "maxUsageCount": 1,
+          "durationInMonths": 3
+        },
+        "applicableOn": [
+          "movies"
+        ],
+        "source": "BookMyShow",
+        "offerText": "Customers transacting on BMS using BoB EaseMyTrip RuPay Platinum Debit Card Offer will be eligible flat INR250 discount. | Offer can be availed once per quarter per card on Movies/Non-movies. | Minimum 2 tickets need to be booked to avail the offer. | Offer valid on all days of the week."
+      }
+    ]
+  },
+  "Bank of India-RuPay-Credit": {
+    "cardName": "RuPay",
+    "bankName": "Bank of India",
+    "cardType": "Credit",
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "Flat ₹250 off",
+        "maxDiscount": 250,
+        "minBillAmount": null,
+        "usageLimit": {
+          "maxUsageCount": 1,
+          "durationInMonths": 1
+        },
+        "applicableOn": [
+          "movies"
+        ],
+        "source": "BookMyShow",
+        "offerText": "Customers transacting on BMS using Bank of India RuPay Select Credit Card Offer will be eligible flat INR250 discount once in a calendar month per card on Movies/Non-movies | Eligible BIN for Bank of India RuPay Select Credit Card is 652867 | Customers transacting on BMS using Bank of India RuPay Platinum Credit Card Offer will be eligible flat INR250 discount once in per quarter per card on Movies/Non-movies | Eligible BIN for Bank of India RuPay Platinum Credit Card is 652968 | Minimum 2 ticke"
+      }
+    ]
+  },
+  "Canara Bank-Any-Credit": {
+    "cardName": "Any",
+    "bankName": "Canara Bank",
+    "cardType": "Credit",
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "Buy 1 Get 1 Free. Minimum 2 tickets",
+        "maxDiscount": 200,
+        "minBillAmount": null,
+        "usageLimit": {
+          "maxUsageCount": 1,
+          "durationInMonths": 1
+        },
+        "applicableOn": [
+          "movies"
+        ],
+        "source": "BookMyShow",
+        "offerText": "Buy One ticket and Get One Free upto INR200 & Flat INR50 Off on Food & Combos (FnB) with Canara Bank Credit Cards | ( For BOGO Offer, the customer will get a max discount upto INR200/- on max 1 ticket only. In case the price of ticket is more than INR200, the difference amount shall be paid by the cardholder using his Canara Bank Credit Card which is being used to avail the offer.) | Minimum 2 tickets needs to be booked to avail the offer | Offer can be availed once in a calendar month per card "
+      }
+    ]
+  },
+  "Canara Bank-Any-Debit": {
+    "cardName": "Any",
+    "bankName": "Canara Bank",
+    "cardType": "Debit",
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "30% off",
+        "maxDiscount": 150,
+        "minBillAmount": null,
+        "usageLimit": {
+          "maxUsageCount": 1,
+          "durationInMonths": 1
+        },
+        "applicableOn": [
+          "movies"
+        ],
+        "source": "BookMyShow",
+        "offerText": "• Get 30% discount up to INR 150* using Canara bank Visa Debit Card | • Maximum discount value is upto INR 150 | • Offer can be availed once in a calendar month per card on Movies/Non-Movies. | • Offer valid on all days of the week"
+      },
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "offer": "Flat ₹300 off",
+        "maxDiscount": 300,
+        "minBillAmount": 1499,
+        "usageLimit": {
+          "maxUsageCount": 1,
+          "durationInMonths": 1
+        },
+        "applicableOn": null,
+        "source": "Zomato",
+        "offerText": "Flat ₹300 OFF using Canara Bank Debit Cards Valid on final payable amount of ₹1499 or more Offer valid once per card per month Offer applicable only on final billable amount net of other discounts (excluding convenience fee, cover charges and tips) Offer valid on all days Restaurants applicable under this program can be found on the app & are subject to change from time to time Other T&Cs may apply"
+      }
+    ]
+  },
+  "Canara Bank-Millennial-Debit": {
+    "cardName": "Millennial",
+    "bankName": "Canara Bank",
+    "cardType": "Debit",
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "Flat ₹250 off",
+        "maxDiscount": 250,
+        "minBillAmount": null,
+        "usageLimit": null,
+        "applicableOn": [
+          "movies"
+        ],
+        "source": "BookMyShow",
+        "offerText": "Canara Bank Millennial RuPay Platinum Card | > BIN (First 6 Digits of Debit Card) 652391 | > Get flat INR250 off on minimum purchase of 2 movie/non-movie tickets once per calendar month. | > The discount will be applicable on the total ticket amount purchased in a transaction. | > Minimum 2 tickets needs to be booked to avail the offer. | > Offer valid on all days of the week. | > Offer is not applicable on BMS Stream and F&b | | Canara Bank Women RuPay Platinum Card | > BIN (First 6 Digits of D"
+      }
+    ]
+  },
+  "Central Bank of India-Debit Card-Debit": {
+    "cardName": "Debit Card",
+    "bankName": "Central Bank of India",
+    "cardType": "Debit",
+    "discounts": [
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "offer": "15% off",
+        "maxDiscount": 500,
+        "minBillAmount": 500,
+        "usageLimit": {
+          "maxUsageCount": 2,
+          "durationInMonths": 1
+        },
+        "applicableOn": null,
+        "source": "EazyDiner",
+        "offerText": "Central Bank of India Debit Card 15% Off upto ₹500 Min. bill value ₹500. Valid twice per card per month. Central Bank of India Debit Cards. Min bill of ₹ 500"
+      }
+    ]
+  },
+  "Central Bank of India-RuPay-Debit": {
+    "cardName": "RuPay",
+    "bankName": "Central Bank of India",
+    "cardType": "Debit",
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "Buy 1 Get 1 Free. Minimum 2 tickets",
+        "maxDiscount": 250,
+        "minBillAmount": null,
+        "usageLimit": {
+          "maxUsageCount": 1,
+          "durationInMonths": 1
+        },
+        "applicableOn": [
+          "events",
+          "concerts",
+          "plays",
+          "sports"
+        ],
+        "source": "BookMyShow",
+        "offerText": "Buy One Ticket and Get One Ticket free upto INR 250 with Central Bank of India RuPay Select Platinum Debit Cards. | Offer is applicable on Events, Concerts, Plays, Sports and Activities, BMS Stream and F&B | Offer valid once per card per month. | Card members can avail maximum discount value up to INR 250. | Customers will have to book minimum 2 tickets to avail the offer | Offer is valid till 31st March 2026"
+      }
+    ]
+  },
+  "DBS Bank-Any-Credit": {
+    "cardName": "Any",
+    "bankName": "DBS Bank",
+    "cardType": "Credit",
+    "discounts": [
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "offer": "10% off",
+        "maxDiscount": 500,
+        "minBillAmount": 3000,
+        "usageLimit": {
+          "maxUsageCount": 1,
+          "durationInMonths": 1
+        },
+        "applicableOn": null,
+        "source": "Zomato",
+        "offerText": "Get 10% OFF up to ₹500 using DBS Credit Cards Valid on final payable amount of ₹3000 or more Offer valid on DBS Credit Card Offer Applicable on Cobrand, Spark & Vantage Card Variants Offer Applicable only on cards with BINs: 47613702, 45148702, 356122 Offer valid on bill value of ₹3000 and above Offer applicable once per card during the offer period Offer applicable only on final billable amount net of other discounts (excluding convenience fee, cover charges and tips) Restaurants applicable und"
+      }
+    ]
+  },
+  "DBS Bank-Spark-Credit": {
+    "cardName": "Spark",
+    "bankName": "DBS Bank",
+    "cardType": "Credit",
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "Buy 1 Get 1 Free",
+        "maxDiscount": 200,
+        "minBillAmount": null,
+        "usageLimit": {
+          "maxUsageCount": 1,
+          "durationInMonths": 1
+        },
+        "applicableOn": [
+          "movies",
+          "events",
+          "concerts",
+          "plays",
+          "sports"
+        ],
+        "source": "BookMyShow",
+        "offerText": "Buy One ticket and Get One Free upto INR 200 on DBS Spark Credit Card on minimum purchase of 2 tickets. | This offer can be availed once per card user in a calendar month on Movies/Non-movies. | Discount will be applicable on ONE ticket only in a single transaction upto INR200. | This offer is valid on all days of the week. | Offer is valid on Movies, Events, Concerts, Plays, Sports and Activities. | Offer is not applicable on BMS Stream and F&B"
+      },
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "offer": "15% off",
+        "maxDiscount": 500,
+        "minBillAmount": 2500,
+        "usageLimit": {
+          "maxUsageCount": 1,
+          "durationInMonths": 1
+        },
+        "applicableOn": null,
+        "source": "EazyDiner",
+        "offerText": "DBS Bank Spark Credit Card 15% Off Upto ₹500 Min. bill of ₹2500. Valid once per month DBS Bank Spark Credit Card. Min bill of ₹ 2500"
+      }
+    ]
+  },
+  "DBS Bank-Vantage-Credit": {
+    "cardName": "Vantage",
+    "bankName": "DBS Bank",
+    "cardType": "Credit",
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "Up to ₹500 off",
+        "maxDiscount": 500,
+        "minBillAmount": null,
+        "usageLimit": {
+          "maxUsageCount": 2,
+          "durationInMonths": 1
+        },
+        "applicableOn": [
+          "movies"
+        ],
+        "source": "BookMyShow",
+        "offerText": "Buy One Get One Upto INR500 with DBS Vantage Credit Card on minimum purchase of 2 tickets. | This offer can be availed twice per card user in a calendar month. | Maximum discount per transaction per card is INR500. | Maximum discount per card in a calendar month is INR1000. | Offer is valid on Movies & Non-Movies"
+      },
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "offer": "20% off",
+        "maxDiscount": 1500,
+        "minBillAmount": 2500,
+        "usageLimit": {
+          "maxUsageCount": 1,
+          "durationInMonths": 1
+        },
+        "applicableOn": null,
+        "source": "EazyDiner",
+        "offerText": "DBS Bank Vantage Credit Card 20% Off Upto ₹1500 Min. bill of ₹2500. Valid once per month DBS Bank Vantage Credit Card. Min bill of ₹ 2500"
+      }
+    ]
+  },
+  "DCB Bank-Novio-Credit": {
+    "cardName": "Novio",
+    "bankName": "DCB Bank",
+    "cardType": "Credit",
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "Buy 1 Get 1 Free. Minimum 2 tickets",
+        "maxDiscount": 250,
+        "minBillAmount": null,
+        "usageLimit": {
+          "maxUsageCount": 1,
+          "durationInMonths": 1
+        },
+        "applicableOn": [
+          "movies"
+        ],
+        "source": "BookMyShow",
+        "offerText": "Buy one ticket and Get One ticket free with DCB Novio Credit Card. | Offer is valid on Movies and non-movies ticket Booking only. | Card members can avail maximum discount value upto INR 250. | Users will get only 1 free ticket upto INR 250 per transaction | Minimum 2 tickets needs to be purchased to avail this offer | Offer Valid all days of the week | Offer can be availed once per card per month | Quota will be subject to availablity"
+      }
+    ]
+  },
+  "Equitas Small Finance Bank-Elite-Debit": {
+    "cardName": "Elite",
+    "bankName": "Equitas Small Finance Bank",
+    "cardType": "Debit",
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "Buy 1 Get 1 Free. Minimum 2 tickets",
+        "maxDiscount": 250,
+        "minBillAmount": 250,
+        "usageLimit": {
+          "maxUsageCount": 1,
+          "durationInMonths": 1
+        },
+        "applicableOn": [
+          "movies"
+        ],
+        "source": "BookMyShow",
+        "offerText": "Buy 1 and Get 1 free up to INR 250 with Equitas Visa Wings Signature, Visa CSK Signature Debit cards & Equitas Mastercard Elite Debit Cards. Minimum 2 tickets to be booked to avail the offer | Get flat INR 100 off on Equitas Visa Signature Debit cards (Except Visa Wings Signature, Visa CSK Signature debit cards & Equitas Mastercard Elite Debit Cards) on a minimum transaction of Rs 250 | Get flat INR 75 off on Equitas all Visa Platinum Debit cards on a minimum transaction of Rs 250 | Offer can be"
+      }
+    ]
+  },
+  "Federal Bank-AmpliFi-Credit": {
+    "cardName": "AmpliFi",
+    "bankName": "Federal Bank",
+    "cardType": "Credit",
+    "discounts": [
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "offer": "20% off",
+        "maxDiscount": 1200,
+        "minBillAmount": 2500,
+        "usageLimit": {
+          "maxUsageCount": 1,
+          "durationInMonths": 1
+        },
+        "applicableOn": null,
+        "source": "Zomato",
+        "offerText": "20% OFF up to ₹1200 using AmpliFi Fi Federal Credit Cards Valid on final payable amount of ₹2500 or more Offer valid on AmpliFi Fi Federal Credit Cards only Offer valid on bill value of ₹2500 and above Offer applicable once per card during the offer period Offer applicable only on final billable amount net of other discounts (excluding convenience fee, cover charges and tips) Restaurants applicable under this program can be found on the the app & are subject to change from time to time Offer val"
+      }
+    ]
+  },
+  "Federal Bank-Amplifi-Credit": {
+    "cardName": "Amplifi",
+    "bankName": "Federal Bank",
+    "cardType": "Credit",
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "Buy 1 Get 1 Free",
+        "maxDiscount": 200,
+        "minBillAmount": null,
+        "usageLimit": {
+          "maxUsageCount": 1,
+          "durationInMonths": 1
+        },
+        "applicableOn": null,
+        "source": "BookMyShow",
+        "offerText": "Buy One ticket and Get One Free upto INR 200 with Amplifi Fi-Federal Credit Card Offer. | Customers can avail only 1 free ticket in a single transaction upto INR200. | The Maximum number of transactions in which discount can be availed is once for each card in a calendar month. | Customer can avail the offer once per card in a calendar month during the offer duration. | In order to avail the offer, a minimum of two tickets needs to be booked. One ticket will be discounted once the offer is appli"
+      }
+    ]
+  },
+  "Federal Bank-MagniFi-Credit": {
+    "cardName": "MagniFi",
+    "bankName": "Federal Bank",
+    "cardType": "Credit",
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "20% off",
+        "maxDiscount": 100,
+        "minBillAmount": 500,
+        "usageLimit": {
+          "maxUsageCount": 1,
+          "durationInMonths": 1
+        },
+        "applicableOn": [
+          "movies",
+          "concerts",
+          "plays",
+          "sports"
+        ],
+        "source": "BookMyShow",
+        "offerText": "Customers transacting on BMS using MagniFi Fi-Federal Credit Card will be eligible for 20% Off upto INR100 on a minimum transaction value of INR500. Max discount is INR100/- | This offer can be availed once in a calendar month per card user as per the eligibility. | Offer is valid Movies, Events, Concerts, Plays, Sports, Activities. Excluding BMS Stream and FnB | Offer can be availed only on Saturday & Sunday for shows/Events on any day of the week | Transaction day should be Saturday/Sunday, Sh"
+      }
+    ]
+  },
+  "Federal Bank-Simplifi-Credit": {
+    "cardName": "Simplifi",
+    "bankName": "Federal Bank",
+    "cardType": "Credit",
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "20% off",
+        "maxDiscount": 150,
+        "minBillAmount": 500,
+        "usageLimit": {
+          "maxUsageCount": 1,
+          "durationInMonths": 1
+        },
+        "applicableOn": null,
+        "source": "BookMyShow",
+        "offerText": "Customers transacting on BMS using Simplifi Fi Federal Credit Card will be eligible for 20% Off upto INR150 on a minimum transaction value of INR500. Max discount is INR150/- | This offer can be availed once in a calendar month per card user on events ONLY as per the eligibility. | Offer is valid on Events. Excluding Movies, BMS Stream and F&B | Offer can be availed only on Saturday & Sunday for shows/Events on any day of the week | Transaction day should be Saturday/Sunday, Show/Event day can b"
+      }
+    ]
+  },
+  "GSC Bank-Platinum-Debit": {
+    "cardName": "Platinum",
+    "bankName": "GSC Bank",
+    "cardType": "Debit",
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "30% off",
+        "maxDiscount": 200,
+        "minBillAmount": null,
+        "usageLimit": {
+          "maxUsageCount": 1,
+          "durationInMonths": 1
+        },
+        "applicableOn": [
+          "movies",
+          "events",
+          "plays"
+        ],
+        "source": "BookMyShow",
+        "offerText": "Get 30% off up to INR 200 with your GSC Bank Platinum debit card. | Get 30% off up to INR 200 with your GSC Bank Platinum debit card. | Offer valid on bookings for any category on BookMyShow i.e. movies/events/plays/activities/STREAM | Offer valid on bookings for any category on BookMyShow i.e. movies/events/plays/activities/STREAM | Offer valid once per card per month. | Offer valid once per card per month. | Offer valid till 31st March 2026 | Offer valid till 31st March 2026"
+      }
+    ]
+  },
+  "HDFC Bank-Diners-Credit": {
+    "cardName": "Diners",
+    "bankName": "HDFC Bank",
+    "cardType": "Credit",
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "Up to ₹250 off",
+        "maxDiscount": 250,
+        "minBillAmount": null,
+        "usageLimit": {
+          "maxUsageCount": 2,
+          "durationInMonths": 1
+        },
+        "applicableOn": [
+          "movies",
+          "events",
+          "concerts",
+          "plays",
+          "sports"
+        ],
+        "source": "BookMyShow",
+        "offerText": "Get upto INR 250 per ticket on group booking using HDFC Bank Diners Club Privilege credit card on Movies, Events, Concerts, Plays, Sports & Activities, Excluding BMS Stream & F&B on BookMyShow | Users can get only 2 free ticket in a calendar month | Card members can avail maximum discount value upto INR 250/ticket in a calendar month | Offer can be availed for shows on Friday/Saturday/Sunday (irrespective of booking day) | Offer Valid from 15th June 2023 to 31st March 2026"
+      }
+    ]
+  },
+  "HDFC Bank-Times-Credit": {
+    "cardName": "Times",
+    "bankName": "HDFC Bank",
+    "cardType": "Credit",
+    "discounts": [
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "offer": "10% off",
+        "maxDiscount": 1500,
+        "minBillAmount": null,
+        "usageLimit": {
+          "maxUsageCount": 1,
+          "durationInMonths": 1
+        },
+        "applicableOn": null,
+        "source": "EazyDiner",
+        "offerText": "HDFC Bank Times Credit Card Select 10% Off upto ₹1500 No min. bill value. Valid once per month HDFC Times Credit Card."
+      },
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "offer": "15% off",
+        "maxDiscount": 1500,
+        "minBillAmount": null,
+        "usageLimit": {
+          "maxUsageCount": 1,
+          "durationInMonths": 1
+        },
+        "applicableOn": null,
+        "source": "EazyDiner",
+        "offerText": "HDFC Bank Times Platinum Credit Card Select 15% Off upto ₹1500 No min. bill value. Valid once per month HDFC Times Platinum Credit Card."
+      }
+    ]
+  },
+  "HSBC-Any-Credit": {
+    "cardName": "Any",
+    "bankName": "HSBC",
+    "cardType": "Credit",
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "10% off",
+        "maxDiscount": 1000,
+        "minBillAmount": null,
+        "usageLimit": {
+          "maxUsageCount": 1,
+          "durationInMonths": 1
+        },
+        "applicableOn": [
+          "events"
+        ],
+        "source": "BookMyShow",
+        "offerText": "Get 10% discount upto INR 1,000/- using HSBC Credit Cards on live event tickets on BookMyShow. | Offer valid once per card per month. | Offer valid on live events only. Not valid on movies and STREAM. | Offer available for first 1,000 transactions per month only. | *This offer is not applicable during any event Pre - Sale"
+      },
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "Buy 1 Get 1 Free",
+        "maxDiscount": null,
+        "minBillAmount": null,
+        "usageLimit": {
+          "maxUsageCount": 1,
+          "durationInMonths": 1
+        },
+        "applicableOn": [
+          "movies"
+        ],
+        "source": "BookMyShow",
+        "offerText": "Buy 1 ticket and get 1 free on movies with HSBC Credit Cards | Offer valid on BookMyShow mobile app only | Offer can be availed only on Saturday for shows on any day of the week | Offer valid once per card per month | Offer will be available for quota of first 2,000 customers every Saturday booking. | Offer valid till 28th February 2026."
+      }
+    ]
+  },
+  "HSBC-Premier-Credit": {
+    "cardName": "Premier",
+    "bankName": "HSBC",
+    "cardType": "Credit",
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "Buy 1 Get 1 Free",
+        "maxDiscount": 750,
+        "minBillAmount": null,
+        "usageLimit": {
+          "maxUsageCount": 2,
+          "durationInMonths": 1
+        },
+        "applicableOn": [
+          "movies",
+          "events",
+          "concerts",
+          "plays",
+          "sports"
+        ],
+        "source": "BookMyShow",
+        "offerText": "| - Buy 1 ticket and get 1 free with HSBC Premier Mastercard Credit Card maximum discount upto INR 750 per free ticket. | - Offer valid on BookMyShow mobile and website | - Offer can be availed on any day of the week. | - Offer can be availed twice per card per month | - Customer will get two free tickets per month | - Offer will be available to all Premier Credit cards issued on BIN 512042 | - Offer is valid on Movies, Events, Concerts, Plays, Sports & Activities, Excluding BMS Stream & F&B on "
+      },
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "offer": "30% off",
+        "maxDiscount": 1500,
+        "minBillAmount": 3000,
+        "usageLimit": {
+          "maxUsageCount": 1,
+          "durationInMonths": 1
+        },
+        "applicableOn": null,
+        "source": "EazyDiner",
+        "offerText": "HSBC Premier Credit Cards Offer 30% off upto ₹1500 Min. bill of ₹3000. Valid once per card per month HSBC Premier Credit Card. Min bill of ₹ 3000"
+      },
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "offer": "10% off",
+        "maxDiscount": 1000,
+        "minBillAmount": 5000,
+        "usageLimit": {
+          "maxUsageCount": 1,
+          "durationInMonths": 1
+        },
+        "applicableOn": null,
+        "source": "Zomato",
+        "offerText": "Get 10% OFF for up to ₹1000 using HSBC Premier Credit Cards Valid on final payable amount of ₹5000 or more Offer valid once per customer during the offer period Offer applicable only on cards with BIN- 512042 Offer applicable only on final billable amount net of other discounts (excluding tips) Offer valid on all days Offer not valid on HSBC Cashback / Live+ Credit Card variant Restaurants applicable under this program can be found on the app & are subject to change from time to time Other T&Cs "
+      }
+    ]
+  },
+  "HSBC-Prive-Credit": {
+    "cardName": "Prive",
+    "bankName": "HSBC",
+    "cardType": "Credit",
+    "discounts": [
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "offer": "30% off",
+        "maxDiscount": 2000,
+        "minBillAmount": 2500,
+        "usageLimit": {
+          "maxUsageCount": 1,
+          "durationInMonths": 1
+        },
+        "applicableOn": null,
+        "source": "EazyDiner",
+        "offerText": "HSBC Prive’ Credit Card 30% off upto ₹2000 Min. bill of ₹2500. Valid once per card per month HSBC Prive Credit Card. Min bill of ₹ 2500"
+      },
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "offer": "12% off",
+        "maxDiscount": 1000,
+        "minBillAmount": 3000,
+        "usageLimit": {
+          "maxUsageCount": 1,
+          "durationInMonths": 1
+        },
+        "applicableOn": null,
+        "source": "Zomato",
+        "offerText": "Get 12% OFF up to ₹1000 using HSBC Prive Credit Cards Valid on final payable amount of ₹3000 or more Offer valid on HSBC Privé Credit Card Offer valid once per customer during the offer period Offer applicable only on final billable amount net of other discounts (excluding convenience fee, cover charges and tips) Restaurants applicable under this program can be found on the app & are subject to change from time to time Offer valid on All Days Other T&Cs may apply"
+      }
+    ]
+  },
+  "HSBC-Privé-Credit": {
+    "cardName": "Privé",
+    "bankName": "HSBC",
+    "cardType": "Credit",
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "Buy 1 Get 1 Free",
+        "maxDiscount": 1000,
+        "minBillAmount": null,
+        "usageLimit": {
+          "maxUsageCount": 2,
+          "durationInMonths": 1
+        },
+        "applicableOn": [
+          "movies",
+          "events",
+          "concerts",
+          "plays",
+          "sports"
+        ],
+        "source": "BookMyShow",
+        "offerText": "- Buy 1 ticket and get 1 free with HSBC Privé Credit Card Offer maximum discount upto INR 1000 per free ticket. | - Offer valid on BookMyShow mobile and website | - Offer can be availed on any day of the week. | - Offer can be availed twice per card per month | - Offer is valid on Movies, Events, Concerts, Plays, Sports & Activities, Excluding BMS Stream & F&B on BookMyShow. | - Maximum benefit that can be availed in lieu of Free Movie ticket offer per month per card is up to INR 2000/-. | - The"
+      }
+    ]
+  },
+  "HSBC-Taj-Credit": {
+    "cardName": "Taj",
+    "bankName": "HSBC",
+    "cardType": "Credit",
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "Buy 1 Get 1 Free",
+        "maxDiscount": 1000,
+        "minBillAmount": null,
+        "usageLimit": {
+          "maxUsageCount": 2,
+          "durationInMonths": 1
+        },
+        "applicableOn": [
+          "movies",
+          "events",
+          "concerts",
+          "plays",
+          "sports"
+        ],
+        "source": "BookMyShow",
+        "offerText": "· Buy 1 ticket and get 1 free with HSBC Taj Credit Card maximum discount upto INR 1000 per free ticket. | · Offer valid on BookMyShow mobile and website | · Offer can be availed on any day of the week. | · Offer can be availed twice per card per month | · Offer will be available to all HSBC Taj Credit Credit cards issued on BIN 438459 | · Offer is valid on Movies, Events, Concerts, Plays, Sports & Activities, Excluding BMS Stream & F&B on BookMyShow. | · Maximum benefit that can be availed in li"
+      },
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "offer": "30% off",
+        "maxDiscount": 1500,
+        "minBillAmount": 3000,
+        "usageLimit": {
+          "maxUsageCount": 1,
+          "durationInMonths": 1
+        },
+        "applicableOn": null,
+        "source": "EazyDiner",
+        "offerText": "HSBC Taj Credit Cards Offer 30% off upto ₹1500 Min. bill of ₹3000. Valid once per card per month HSBC Taj Visa Credit Card. Min bill of ₹ 3000"
+      },
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "offer": "12% off",
+        "maxDiscount": 1000,
+        "minBillAmount": 3000,
+        "usageLimit": {
+          "maxUsageCount": 1,
+          "durationInMonths": 1
+        },
+        "applicableOn": null,
+        "source": "Zomato",
+        "offerText": "Get 12% OFF up to ₹1000 using HSBC Taj Credit Card Valid on final payable amount of ₹3000 or more Offer valid once per customer during the offer period Offer applicable only on final billable amount net of other discounts (excluding convenience fee, cover charges and tips) Restaurants applicable under this program can be found on the app & are subject to change from time to time Offer only valid for HSBC Taj Credit Card users Offer valid on all days Other T&Cs may apply"
+      }
+    ]
+  },
+  "HSBC-TravelOne-Credit": {
+    "cardName": "TravelOne",
+    "bankName": "HSBC",
+    "cardType": "Credit",
+    "discounts": [
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "offer": "10% off",
+        "maxDiscount": 1000,
+        "minBillAmount": null,
+        "usageLimit": {
+          "maxUsageCount": 1,
+          "durationInMonths": 1
+        },
+        "applicableOn": null,
+        "source": "EazyDiner",
+        "offerText": "HSBC TravelOne Credit Card Select 10% off upto ₹1000 No min. bill value. Valid once per card per month HSBC TravelOne Credit Card."
+      },
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "offer": "10% off",
+        "maxDiscount": 1000,
+        "minBillAmount": 0,
+        "usageLimit": null,
+        "applicableOn": null,
+        "source": "Zomato",
+        "offerText": "Get 10% OFF up to ₹1000 using HSBC TravelOne Credit Card Valid on final payable amount through the app Offer valid on HSBC TravelOne Credit Card This offer can be availed without any minimum bill value requirement Offer can be availed once per calendar month Customers can avail a maximum discount up to ₹1000 Offer applicable only on final billable amount net of other discounts (excluding convenience fee, cover charges and tips) Restaurants applicable under this program can be found on the app & "
+      }
+    ]
+  },
+  "ICICI Bank-Any-Any": {
+    "cardName": "Any",
+    "bankName": "ICICI Bank",
+    "cardType": null,
+    "discounts": [
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "offer": "Discount available",
+        "maxDiscount": null,
+        "minBillAmount": 2000,
+        "usageLimit": {
+          "maxUsageCount": 1,
+          "durationInMonths": 1
+        },
+        "applicableOn": null,
+        "source": "EazyDiner",
+        "offerText": "ICICI Bank Net Banking Extra ₹200 Off Min. bill of Rs 2000 Valid once per month ICICI Bank Net Banking Min bill of ₹ 2000"
+      },
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "offer": "Flat ₹250 off",
+        "maxDiscount": 250,
+        "minBillAmount": 3500,
+        "usageLimit": {
+          "maxUsageCount": 1,
+          "durationInMonths": 1
+        },
+        "applicableOn": null,
+        "source": "Zomato",
+        "offerText": "Extra Flat ₹250 OFF using ICICI Bank Net Banking Valid on final payable amount of ₹3500 or more Offer only applicable on ICICI Bank Net Banking Offer valid once per user during the offer period Restaurants applicable under this program can be found on the app & are subject to change from time to time Offer is applicable on all days Other T&Cs may apply"
+      }
+    ]
+  },
+  "ICICI Bank-Any-Credit": {
+    "cardName": "Any",
+    "bankName": "ICICI Bank",
+    "cardType": "Credit",
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "25% off",
+        "maxDiscount": null,
+        "minBillAmount": null,
+        "usageLimit": null,
+        "applicableOn": [
+          "movies"
+        ],
+        "source": "BookMyShow",
+        "offerText": "• Get 25% discount using your ICICI Bank Credit Card | • Minimum 2 tickets need to be brought in order to avail the offer | • Offer applicable only on select ICICI Bank Credit Cards | • Successful booking is on first come first serve basis and is subject to daily stock availability | • Offer is valid till 31st March 2026 | • This offer is applicable on movies only"
+      },
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "Discount available",
+        "maxDiscount": null,
+        "minBillAmount": null,
+        "usageLimit": null,
+        "applicableOn": [
+          "movies",
+          "events"
+        ],
+        "source": "BookMyShow",
+        "offerText": "Get Complimentary Tickets with your ICICI Bank Credit Card | Minimum 2 tickets need to be brought in order to avail the offer | Offer only on selected ICICI Bank Credit Cards | Offer is valid till 31st March, 2026 | This offer is applicable on both movies and events"
+      },
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "offer": "Flat ₹300 off",
+        "maxDiscount": 300,
+        "minBillAmount": 4000,
+        "usageLimit": {
+          "maxUsageCount": 1,
+          "durationInMonths": 1
+        },
+        "applicableOn": null,
+        "source": "Zomato",
+        "offerText": "Extra Flat Rs 300 off with ICICI Bank Credit Cards Valid on final payable amount of ₹4000 or more Offer valid only on ICICI Bank Credit Cards ( except Amazon Pay ICICI Bank Credit Card) Offer valid once per card per month during the offer period Offer valid on Monday, Tuesday, Wednesday & Thursday Offer applicable only on final billable amount net of other discounts (excluding convenience fee, cover charges and tips) Restaurants applicable under this program can be found on the app & are subject"
+      }
+    ]
+  },
+  "ICICI Bank-Any-Debit": {
+    "cardName": "Any",
+    "bankName": "ICICI Bank",
+    "cardType": "Debit",
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "25% off",
+        "maxDiscount": null,
+        "minBillAmount": null,
+        "usageLimit": null,
+        "applicableOn": [
+          "movies"
+        ],
+        "source": "BookMyShow",
+        "offerText": "Get 25% discount using your ICICI Bank Debit Card | Minimum 2 tickets need to be brought in order to avail the offer | Offer applicable only on select ICICI Bank Debit Cards | Successful booking is on first come first serve basis and is subject to daily stock availability | Offer is valid till 31st March 2026 | This offer is applicable on movies only"
+      }
+    ]
+  },
+  "IDBI Bank-Any-Credit": {
+    "cardName": "Any",
+    "bankName": "IDBI Bank",
+    "cardType": "Credit",
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "25% off",
+        "maxDiscount": 250,
+        "minBillAmount": 599,
+        "usageLimit": {
+          "maxUsageCount": 1,
+          "durationInMonths": 1
+        },
+        "applicableOn": [
+          "movies",
+          "events",
+          "concerts",
+          "plays",
+          "sports"
+        ],
+        "source": "BookMyShow",
+        "offerText": "Get 25% Off upto INR 250 on minimum transaction value of INR 599 & above (including Conv. Fees) with IDBI Bank Credit Cards | This offer can be availed once in a calendar month per card per user. | Offer is valid on Movies, Events, Concerts, Plays, Sports and Activities. | Offer is not applicable on BMS Stream and F&B | Offer is valid till 31st March 2026"
+      },
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "offer": "15% off",
+        "maxDiscount": 1000,
+        "minBillAmount": 3500,
+        "usageLimit": {
+          "maxUsageCount": 1,
+          "durationInMonths": 1
+        },
+        "applicableOn": null,
+        "source": "Zomato",
+        "offerText": "Get 15% OFF up to ₹1000 using IDBI Bank Credit Cards Valid on final payable amount of ₹3500 or more Offer valid once per customer during the calendar month Offer applicable only on final billable amount net of other discounts (excluding convenience fee, cover charges and tips) Restaurants applicable under this program can be found on the app & are subject to change from time to time Offer valid on all days Other T&Cs may apply"
+      }
+    ]
+  },
+  "IDFC First Bank-Any-Debit": {
+    "cardName": "Any",
+    "bankName": "IDFC First Bank",
+    "cardType": "Debit",
+    "discounts": [
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "offer": "12% off",
+        "maxDiscount": 500,
+        "minBillAmount": 5000,
+        "usageLimit": {
+          "maxUsageCount": 1,
+          "durationInMonths": 1
+        },
+        "applicableOn": null,
+        "source": "Zomato",
+        "offerText": "Get 12% OFF up to ₹500 using IDFC Select Debit Cards Valid on final payable amount of ₹5000 or more Offer applicable on IDFC Select Debit Cards Offer valid once per user during the offer period Offer applicable only on final billable amount net of other discounts (excluding tips) Restaurants applicable under this program can be found on the app & are subject to change from time to time Other T&Cs may apply"
+      }
+    ]
+  },
+  "IDFC First Bank-Credit Card-Credit": {
+    "cardName": "Credit Card",
+    "bankName": "IDFC First Bank",
+    "cardType": "Credit",
+    "discounts": [
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "offer": "Discount available",
+        "maxDiscount": 1000,
+        "minBillAmount": 5000,
+        "usageLimit": {
+          "maxUsageCount": 1,
+          "durationInMonths": 1
+        },
+        "applicableOn": null,
+        "source": "EazyDiner",
+        "offerText": "IDFC FIRST Bank Credit Cards Flat Rs. 1000 Instant Discount Min. bill of ₹5000. Valid once per card per month IDFC FIRST Bank FIRST Private Credit Cards. Min bill of ₹ 5000"
+      }
+    ]
+  },
+  "IDFC First Bank-Platinum-Debit": {
+    "cardName": "Platinum",
+    "bankName": "IDFC First Bank",
+    "cardType": "Debit",
+    "discounts": [
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "offer": "10% off",
+        "maxDiscount": 500,
+        "minBillAmount": 1000,
+        "usageLimit": {
+          "maxUsageCount": 1,
+          "durationInMonths": 1
+        },
+        "applicableOn": null,
+        "source": "Zomato",
+        "offerText": "Get 10% OFF up to ₹500 using IDFC First Power Women Platinum & Signature Debit Cards Valid on final payable amount of ₹1000 or more Offer applicable on IDFC First Power Women Platinum & Signature Debit Cards Offer valid once per user during the offer period Offer applicable only on final billable amount net of other discounts (excluding convenience fee, cover charges and tips) Restaurants applicable under this program can be found on the app & are subject to change from time to time Other T&Cs m"
+      }
+    ]
+  },
+  "IDFC First Bank-Power-Debit": {
+    "cardName": "Power",
+    "bankName": "IDFC First Bank",
+    "cardType": "Debit",
+    "discounts": [
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "offer": "10% off",
+        "maxDiscount": 500,
+        "minBillAmount": 1000,
+        "usageLimit": {
+          "maxUsageCount": 1,
+          "durationInMonths": 1
+        },
+        "applicableOn": null,
+        "source": "Zomato",
+        "offerText": "Get 10% OFF up to ₹500 using IDFC First Power Women Platinum & Signature Debit Cards Valid on final payable amount of ₹1000 or more Offer applicable on IDFC First Power Women Platinum & Signature Debit Cards Offer valid once per user during the offer period Offer applicable only on final billable amount net of other discounts (excluding convenience fee, cover charges and tips) Restaurants applicable under this program can be found on the app & are subject to change from time to time Other T&Cs m"
+      }
+    ]
+  },
+  "IDFC First Bank-Private-Credit": {
+    "cardName": "Private",
+    "bankName": "IDFC First Bank",
+    "cardType": "Credit",
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "Up to ₹750 off",
+        "maxDiscount": 750,
+        "minBillAmount": null,
+        "usageLimit": null,
+        "applicableOn": [
+          "events",
+          "concerts",
+          "plays",
+          "sports"
+        ],
+        "source": "BookMyShow",
+        "offerText": "Get up to INR 750 off on Movies and FnB and/or Non-movies transaction twice a month with IDFC First Bank Private Credit Card | Maximum Discount per transaction will be the actual value of transaction or INR750 whichever is lower & Maximum number of discounted transactions in a month is 2 | Eligible Bin Range - 4405231000000000 to 4405231009999999 | Offer is valid on Movies, FnB, Events, Concerts, Plays, Sports, Activities | For any Non-Movies Transaction, if the transaction amount is below INR75"
+      }
+    ]
+  },
+  "IDFC First Bank-Private-Debit": {
+    "cardName": "Private",
+    "bankName": "IDFC First Bank",
+    "cardType": "Debit",
+    "discounts": [
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "offer": "20% off",
+        "maxDiscount": 1000,
+        "minBillAmount": 5000,
+        "usageLimit": {
+          "maxUsageCount": 1,
+          "durationInMonths": 1
+        },
+        "applicableOn": null,
+        "source": "Zomato",
+        "offerText": "Get 20% OFF up to ₹1000 using IDFC Private Debit Cards Valid on final payable amount of ₹5000 or more Offer applicable on IDFC Private Debit Cards Offer valid once per user during the offer period Offer applicable only on final billable amount net of other discounts (excluding tips) Restaurants applicable under this program can be found on the app & are subject to change from time to time Other T&Cs may apply"
+      }
+    ]
+  },
+  "IDFC First Bank-Signature-Debit": {
+    "cardName": "Signature",
+    "bankName": "IDFC First Bank",
+    "cardType": "Debit",
+    "discounts": [
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "offer": "10% off",
+        "maxDiscount": 500,
+        "minBillAmount": 1000,
+        "usageLimit": {
+          "maxUsageCount": 1,
+          "durationInMonths": 1
+        },
+        "applicableOn": null,
+        "source": "Zomato",
+        "offerText": "Get 10% OFF up to ₹500 using IDFC First Power Women Platinum & Signature Debit Cards Valid on final payable amount of ₹1000 or more Offer applicable on IDFC First Power Women Platinum & Signature Debit Cards Offer valid once per user during the offer period Offer applicable only on final billable amount net of other discounts (excluding convenience fee, cover charges and tips) Restaurants applicable under this program can be found on the app & are subject to change from time to time Other T&Cs m"
+      }
+    ]
+  },
+  "IDFC First Bank-Wealth-Debit": {
+    "cardName": "Wealth",
+    "bankName": "IDFC First Bank",
+    "cardType": "Debit",
+    "discounts": [
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "offer": "15% off",
+        "maxDiscount": 750,
+        "minBillAmount": 5000,
+        "usageLimit": {
+          "maxUsageCount": 1,
+          "durationInMonths": 1
+        },
+        "applicableOn": null,
+        "source": "Zomato",
+        "offerText": "Get 15% OFF up to ₹750 using IDFC Wealth Debit Cards Valid on final payable amount of ₹5000 or more Offer applicable on IDFC Wealth Debit Cards Offer valid once per user during the offer period Offer applicable only on final billable amount net of other discounts (excluding tips) Restaurants applicable under this program can be found on the app & are subject to change from time to time Other T&Cs may apply"
+      }
+    ]
+  },
+  "INDIE-Platinum-Debit": {
+    "cardName": "Platinum",
+    "bankName": "INDIE",
+    "cardType": "Debit",
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "Buy 1 Get 1 Free. Minimum 2 tickets",
+        "maxDiscount": 250,
+        "minBillAmount": null,
+        "usageLimit": null,
+        "applicableOn": [
+          "movies"
+        ],
+        "source": "BookMyShow",
+        "offerText": "Buy One ticket and Get One Free upto INR250 on Movies with INDIE Platinum Debit Card. | Customers can avail maximum 2 free tickets for movies in a quarter | Maximum discount per ticket is capped at INR250 on Movies. Max discount per user in a quarter is INR500. | Customers can avail free Movie tickets in a single transaction or multiple transactions. | Minimum 2 tickets need to be booked to avail the offer. | Offer is valid on INDIE Platinum Debit Cards starting with Bin 416292 | This offer is v"
+      }
+    ]
+  },
+  "INDIE-Signature-Debit": {
+    "cardName": "Signature",
+    "bankName": "INDIE",
+    "cardType": "Debit",
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "Buy 1 Get 1 Free. Minimum 2 tickets",
+        "maxDiscount": 400,
+        "minBillAmount": null,
+        "usageLimit": {
+          "maxUsageCount": 1,
+          "durationInMonths": 1
+        },
+        "applicableOn": [
+          "movies",
+          "events",
+          "concerts",
+          "plays",
+          "sports"
+        ],
+        "source": "BookMyShow",
+        "offerText": "ABOUT THE OFFER | Buy One ticket and Get One Free upto INR 400 on INDIE Signature Debit Card. | The free ticket price is capped at INR 400. In case the price of ticket is more than INR 400, the difference amount shall be paid by the cardholder which is being used to avail the offer. | Minimum 2 tickets need to be booked to avail the offer. | This offer is valid on all days of the week. | This offer can be availed once in a calendar month on Movies/Non-movies. | The discount will be applicable on"
+      }
+    ]
+  },
+  "Indian Bank-Gold-Any": {
+    "cardName": "Gold",
+    "bankName": "Indian Bank",
+    "cardType": null,
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "Flat ₹250 off",
+        "maxDiscount": 250,
+        "minBillAmount": null,
+        "usageLimit": {
+          "maxUsageCount": 1,
+          "durationInMonths": 3
+        },
+        "applicableOn": [
+          "movies"
+        ],
+        "source": "BookMyShow",
+        "offerText": "Indian Bank Pro Gold RuPay Select Card & Indian Bank Pro Platinum RuPay Select Card | Flat ₹250 discount per transaction.Offer valid once per calander year per card.BIN: 65249715 & 65249716 | Indian Bank Shakti Gold RuPay Select Card. | Flat ₹250 discount per transactionOffer valid once per quarter per card.BIN: 65249714 | General Terms & Conditions: | A minimum of 2 tickets must be booked per transaction to avail of the discount.Offer applicable on Movies/Non-movies bookings.Offer valid on all "
+      }
+    ]
+  },
+  "IndusInd Bank-Any-Debit": {
+    "cardName": "Any",
+    "bankName": "IndusInd Bank",
+    "cardType": "Debit",
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "Discount available",
+        "maxDiscount": null,
+        "minBillAmount": null,
+        "usageLimit": null,
+        "applicableOn": [
+          "movies"
+        ],
+        "source": "BookMyShow",
+        "offerText": "Buy 1 Movie ticket and get the 2nd FREE. Offer applicable on IndusInd Premium Debit Cards | Buy 1 Movie ticket and get the 2nd FREE. Offer applicable on IndusInd Premium Debit Cards | Eligible Debit Cards are Platinum Plus, Platinum Premier, Signature Select, World Select, Signature Exclusive,World Exclusive, Signature, Titanium Plus, Duo, Titanium Metro Debit Cards, Titanium Delights Debit Cards & Platinum Carat Debit Cards | Eligible Debit Cards are Platinum Plus, Platinum Premier, Signature S"
+      }
+    ]
+  },
+  "IndusInd Bank-Legacy-Credit": {
+    "cardName": "Legacy",
+    "bankName": "IndusInd Bank",
+    "cardType": "Credit",
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "20% off",
+        "maxDiscount": 700,
+        "minBillAmount": null,
+        "usageLimit": null,
+        "applicableOn": [
+          "movies",
+          "events"
+        ],
+        "source": "BookMyShow",
+        "offerText": "Buy 1 Get 1 movie ticket free upto INR 700 + INR 50 off on Food Combos + 20% off up to INR 350 on Event and Theatre bookings with IndusInd Bank Indulge/Crest/Celesta/Heritage (Non-Metal) , Legacy, Vistara Explorer Co- Branded, Pinnacle Credit Card. | Food combos has to be purchased in the same transaction to avail the INR 50 off on F&B | Offer available on a minimum purchase of 2 tickets | Offer on movie & food combos can be availed thrice in a month | Offer on Events and theatre bookings is cap"
+      }
+    ]
+  },
+  "IndusInd Bank-Platinum-Credit": {
+    "cardName": "Platinum",
+    "bankName": "IndusInd Bank",
+    "cardType": "Credit",
+    "discounts": [
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "offer": "20% off",
+        "maxDiscount": 500,
+        "minBillAmount": 1,
+        "usageLimit": {
+          "maxUsageCount": 3,
+          "durationInMonths": 1
+        },
+        "applicableOn": null,
+        "source": "EazyDiner",
+        "offerText": "EazyDiner IndusInd Bank Platinum Card 20% Off upto ₹500 No min. bill value Valid thrice per card per month EazyDiner IndusInd Platinum Credit Card. Min bill of ₹ 1"
+      }
+    ]
+  },
+  "IndusInd Bank-Private-Credit": {
+    "cardName": "Private",
+    "bankName": "IndusInd Bank",
+    "cardType": "Credit",
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "Discount available",
+        "maxDiscount": null,
+        "minBillAmount": null,
+        "usageLimit": null,
+        "applicableOn": [
+          "movies"
+        ],
+        "source": "BookMyShow",
+        "offerText": "1. Get Assured Movie tickets using IndusInd Bank PIONEER Private Credit Card, Metal Heritage, Govt Aura Edge , IndusInd Bank Tiger Credit Card , Samman RuPay Credit Card, Poonawalla Fincorp Elite Credit Card | 2. The offer is applicable for IndusInd Bank PIONEER Private Credit Card, Metal Heritage, Govt Aura Edge, IndusInd Bank Tiger Credit Card , Samman RuPay Credit Card, Poonawalla Fincorp Elite credit card | 3. This offer is valid for movies booked on BookMyShow only | 4. This offer is valid "
+      }
+    ]
+  },
+  "IndusInd Bank-Private-Debit": {
+    "cardName": "Private",
+    "bankName": "IndusInd Bank",
+    "cardType": "Debit",
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "Buy 1 Get 1 Free. Minimum 2 tickets",
+        "maxDiscount": 750,
+        "minBillAmount": null,
+        "usageLimit": null,
+        "applicableOn": [
+          "movies"
+        ],
+        "source": "BookMyShow",
+        "offerText": "IndusInd PIONEER Debit Card | Buy 1 ticket and Get 1 free up to INR 750 for Movies & up to INR 1000 for Non-Movies with IndusInd PIONEER Debit Card | Users can get 4 free movie and 4 free non movie tickets each quarter | Book minimum 2 tickets to avail the offer | Customer can avail only 1 free ticket per transaction in a day | IndusInd PIONEER Private Debit Card | Buy 1 ticket and Get 1 free on Movies with IndusInd PIONEER Private Debit Card. There is no discount capping on the free tickets. | "
+      }
+    ]
+  },
+  "IndusInd Bank-Signature-Credit": {
+    "cardName": "Signature",
+    "bankName": "IndusInd Bank",
+    "cardType": "Credit",
+    "discounts": [
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "offer": "25% off",
+        "maxDiscount": 1000,
+        "minBillAmount": 1,
+        "usageLimit": {
+          "maxUsageCount": 99,
+          "durationInMonths": 1
+        },
+        "applicableOn": null,
+        "source": "EazyDiner",
+        "offerText": "EazyDiner IndusInd Bank Card 25% Off upto ₹1000 No min. bill value Valid every single time, upto the available discount limit. EazyDiner IndusInd Signature Credit Card. Min bill of ₹ 1"
+      }
+    ]
+  },
+  "IndusInd Bank-Signature-Debit": {
+    "cardName": "Signature",
+    "bankName": "IndusInd Bank",
+    "cardType": "Debit",
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "Buy 1 Get 1 Free. Minimum 2 tickets",
+        "maxDiscount": 750,
+        "minBillAmount": null,
+        "usageLimit": null,
+        "applicableOn": [
+          "movies"
+        ],
+        "source": "BookMyShow",
+        "offerText": "IndusInd PIONEER Debit Card | Buy 1 ticket and Get 1 free up to INR 750 for Movies & up to INR 1000 for Non-Movies with IndusInd PIONEER Debit Card | Users can get 4 free movie and 4 free non movie tickets each quarter | Book minimum 2 tickets to avail the offer | Customer can avail only 1 free ticket per transaction in a day | IndusInd PIONEER Private Debit Card | Buy 1 ticket and Get 1 free on Movies with IndusInd PIONEER Private Debit Card. There is no discount capping on the free tickets. | "
+      }
+    ]
+  },
+  "IndusInd Bank-Solitaire-Debit": {
+    "cardName": "Solitaire",
+    "bankName": "IndusInd Bank",
+    "cardType": "Debit",
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "Buy 1 Get 1 Free. Minimum 2 tickets",
+        "maxDiscount": 1000,
+        "minBillAmount": null,
+        "usageLimit": null,
+        "applicableOn": [
+          "movies",
+          "events",
+          "concerts",
+          "plays",
+          "sports"
+        ],
+        "source": "BookMyShow",
+        "offerText": "Buy One ticket and Get One Free upto INR 1000 on Movies & upto INR1000 on Non-Movies with IndusInd Bank Solitaire Debit Card. | Customer can avail maximum 4 free tickets for movies & 4 free tickets for non movies in a quarter i.e total 8 Fee Tickets in a quarter | Maximum discount per ticket is capped at INR 1000 on Movies & INR1000 on Non-Movies | Customers can avail free Movie or Non-Movie tickets in a single transaction or multiple transactions. | Minimum 2 tickets need to be booked in order "
+      }
+    ]
+  },
+  "IndusInd Bank-Super Premium-Credit": {
+    "cardName": "Super Premium",
+    "bankName": "IndusInd Bank",
+    "cardType": "Credit",
+    "discounts": [
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "offer": "Up to ₹3000 off",
+        "maxDiscount": 3000,
+        "minBillAmount": 500,
+        "usageLimit": {
+          "maxUsageCount": 1,
+          "durationInMonths": 6
+        },
+        "applicableOn": null,
+        "source": "EazyDiner",
+        "offerText": "IndusInd Bank Super Premium Cards Upto ₹3000 off Offer valid once every six months per card (Jan–Jun and Jul–Dec). IndusInd Bank Super Premium Credit Cards. Min bill of ₹ 500"
+      }
+    ]
+  },
+  "IndusInd Bank-Vistara-Credit": {
+    "cardName": "Vistara",
+    "bankName": "IndusInd Bank",
+    "cardType": "Credit",
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "20% off",
+        "maxDiscount": 700,
+        "minBillAmount": null,
+        "usageLimit": null,
+        "applicableOn": [
+          "movies",
+          "events"
+        ],
+        "source": "BookMyShow",
+        "offerText": "Buy 1 Get 1 movie ticket free upto INR 700 + INR 50 off on Food Combos + 20% off up to INR 350 on Event and Theatre bookings with IndusInd Bank Indulge/Crest/Celesta/Heritage (Non-Metal) , Legacy, Vistara Explorer Co- Branded, Pinnacle Credit Card. | Food combos has to be purchased in the same transaction to avail the INR 50 off on F&B | Offer available on a minimum purchase of 2 tickets | Offer on movie & food combos can be availed thrice in a month | Offer on Events and theatre bookings is cap"
+      }
+    ]
+  },
+  "IndusInd Bank-World-Debit": {
+    "cardName": "World",
+    "bankName": "IndusInd Bank",
+    "cardType": "Debit",
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "Buy 1 Get 1 Free. Minimum 2 tickets",
+        "maxDiscount": 750,
+        "minBillAmount": null,
+        "usageLimit": null,
+        "applicableOn": [
+          "movies"
+        ],
+        "source": "BookMyShow",
+        "offerText": "IndusInd PIONEER Debit Card | Buy 1 ticket and Get 1 free up to INR 750 for Movies & up to INR 1000 for Non-Movies with IndusInd PIONEER Debit Card | Users can get 4 free movie and 4 free non movie tickets each quarter | Book minimum 2 tickets to avail the offer | Customer can avail only 1 free ticket per transaction in a day | IndusInd PIONEER Private Debit Card | Buy 1 ticket and Get 1 free on Movies with IndusInd PIONEER Private Debit Card. There is no discount capping on the free tickets. | "
+      }
+    ]
+  },
+  "IndusInd Bank-eLITE-Credit": {
+    "cardName": "eLITE",
+    "bankName": "IndusInd Bank",
+    "cardType": "Credit",
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "Buy 1 Get 1 Free. Minimum 2 tickets",
+        "maxDiscount": null,
+        "minBillAmount": null,
+        "usageLimit": null,
+        "applicableOn": null,
+        "source": "BookMyShow",
+        "offerText": "Buy 1 ticket and get 1 ticket free with select range of IndusInd Bank Credit Cards Legend, Nexxt, Duo, Signature, Iconia Intermiles, Poonawalla Fincorp eLITE Credit Card Offer | Buy 1 ticket and get 1 ticket free with select range of IndusInd Bank Credit Cards Legend, Nexxt, Duo, Signature, Iconia Intermiles, Poonawalla Fincorp eLITE Credit Card Offer | The offer can be availed on IndusInd Bank Legend, Nexxt, Duo, Signature, Iconia Intermiles Poonawalla Fincorp eLITE credit cards. | The offer ca"
+      }
+    ]
+  },
+  "J&K Bank-Any-Credit": {
+    "cardName": "Any",
+    "bankName": "J&K Bank",
+    "cardType": "Credit",
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "Buy 1 Get 1 Free. Minimum 2 tickets",
+        "maxDiscount": 250,
+        "minBillAmount": null,
+        "usageLimit": {
+          "maxUsageCount": 1,
+          "durationInMonths": 1
+        },
+        "applicableOn": [
+          "movies"
+        ],
+        "source": "BookMyShow",
+        "offerText": "Buy One ticket and Get One Free upto INR 250 on J&K Bank Mastercard Credit Card | Minimum 2 tickets need to be booked in order to avail the Offer. | Discount will be applicable on ONE ticket only in a single transaction. | This offer can be ONCE in calendar month on Movies | Discount is valid only on the ticket cost Only. BookMyShow convenience fee or any additional charges will be borne by the cardholder."
+      }
+    ]
+  },
+  "J&K Bank-Any-Debit": {
+    "cardName": "Any",
+    "bankName": "J&K Bank",
+    "cardType": "Debit",
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "Buy 1 Get 1 Free. Minimum 2 tickets",
+        "maxDiscount": 250,
+        "minBillAmount": null,
+        "usageLimit": {
+          "maxUsageCount": 1,
+          "durationInMonths": 1
+        },
+        "applicableOn": [
+          "movies"
+        ],
+        "source": "BookMyShow",
+        "offerText": "Buy One ticket and Get One Free upto INR 250 on J&K Bank Mastercard Debit Card | Minimum 2 tickets need to be booked in order to avail the Offer. | Discount will be applicable on ONE ticket only in a single transaction. | This offer can be ONCE in calendar month on Movies | Discount is valid only on the ticket cost Only. BookMyShow convenience fee or any additional charges will be borne by the cardholder."
+      }
+    ]
+  },
+  "Karnataka Bank-Platinum-Debit": {
+    "cardName": "Platinum",
+    "bankName": "Karnataka Bank",
+    "cardType": "Debit",
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "Flat ₹250 off",
+        "maxDiscount": 250,
+        "minBillAmount": null,
+        "usageLimit": {
+          "maxUsageCount": 1,
+          "durationInMonths": 3
+        },
+        "applicableOn": [
+          "movies"
+        ],
+        "source": "BookMyShow",
+        "offerText": "Karnataka Woman Platinum Debit Card | Customers transacting on BMS using Karnataka Woman Platinum Debit Card will be eligible flat INR250 discount. | Offer can be availed once in a quarter per card on Movies/Non-movies. | Minimum 2 tickets need to be booked to avail the offer. | Offer valid on all days of the week | BIN: 65249415 | Karnataka Bank Family Select Debit Card | Customers transacting on BMS using Karnataka Bank Family Select Debit Card will be eligible flat INR500 discount. | Offer ca"
+      }
+    ]
+  },
+  "Kotak Mahindra Bank-811 Infinity Metal-Debit": {
+    "cardName": "811 Infinity Metal",
+    "bankName": "Kotak Mahindra Bank",
+    "cardType": "Debit",
+    "discounts": [
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "offer": "20% off",
+        "maxDiscount": 750,
+        "minBillAmount": 2000,
+        "usageLimit": {
+          "maxUsageCount": 1,
+          "durationInMonths": 1
+        },
+        "applicableOn": null,
+        "source": "Zomato",
+        "offerText": "Get 20% OFF up to ₹750 using Kotak Bank 811 Infinity Metal Debit Card Valid on final payable amount of ₹2000 or more Offer applicable once per card per calendar month Offer applicable only on final billable amount net of other discounts (excluding convenience fee, cover charges and tips) Offer valid on all days Restaurants applicable under this program can be found on the app & are subject to change from time to time. Other T&Cs may apply"
+      }
+    ]
+  },
+  "Kotak Mahindra Bank-Everyday-Debit": {
+    "cardName": "Everyday",
+    "bankName": "Kotak Mahindra Bank",
+    "cardType": "Debit",
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "20% off",
+        "maxDiscount": 100,
+        "minBillAmount": null,
+        "usageLimit": {
+          "maxUsageCount": 1,
+          "durationInMonths": 1
+        },
+        "applicableOn": null,
+        "source": "BookMyShow",
+        "offerText": "Get 20% off up to INR 100 with your Kotak Bank Everyday Debit Card on BookMyShow | Get 20% off up to INR 100 with your Kotak Bank Everyday Debit Card on BookMyShow | Offer is valid on Movies, Events, Concerts, Plays, Sports & Activities, Excluding BMS Stream & F&B | Offer is valid on Movies, Events, Concerts, Plays, Sports & Activities, Excluding BMS Stream & F&B | Offer valid once per card per month. | Offer valid once per card per month. | Offer Valid on all days of the week | Offer valid till"
+      }
+    ]
+  },
+  "Kotak Mahindra Bank-Infinity-Debit": {
+    "cardName": "Infinity",
+    "bankName": "Kotak Mahindra Bank",
+    "cardType": "Debit",
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "Buy 1 Get 1 Free",
+        "maxDiscount": 300,
+        "minBillAmount": 400,
+        "usageLimit": {
+          "maxUsageCount": 1,
+          "durationInMonths": 1
+        },
+        "applicableOn": [
+          "movies",
+          "events",
+          "concerts",
+          "plays",
+          "sports"
+        ],
+        "source": "BookMyShow",
+        "offerText": "Buy one ticket and Get One ticket free upto INR 300 with Kotak 811 Infinity Debit Cards on BookMyShow | Minimum transaction value of INR 400 | Offer is valid on Movies, Events, Concerts, Plays, Sports & Activities, Excluding BMS Stream & F&B | Offer valid Once per card per month. | Offer Valid on all days of the week | Offer valid till 31st March, 2026"
+      }
+    ]
+  },
+  "Kotak Mahindra Bank-Privy Black-Debit": {
+    "cardName": "Privy Black",
+    "bankName": "Kotak Mahindra Bank",
+    "cardType": "Debit",
+    "discounts": [
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "offer": "10% off",
+        "maxDiscount": 1200,
+        "minBillAmount": 2500,
+        "usageLimit": {
+          "maxUsageCount": 1,
+          "durationInMonths": 1
+        },
+        "applicableOn": null,
+        "source": "Zomato",
+        "offerText": "Get 10% OFF up to ₹1200 using Kotak Bank Privy Black Debit Card Valid on final payable amount of ₹2500 or more Offer applicable once per card per calendar month Offer valid on all days Offer applicable only on final billable amount net of other discounts (excluding convenience fee, cover charges and tips) Restaurants applicable under this program can be found on the app & are subject to change from time to time. Other T&Cs may apply"
+      }
+    ]
+  },
+  "Kotak Mahindra Bank-Privy Neon-Debit": {
+    "cardName": "Privy Neon",
+    "bankName": "Kotak Mahindra Bank",
+    "cardType": "Debit",
+    "discounts": [
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "offer": "10% off",
+        "maxDiscount": 600,
+        "minBillAmount": 2500,
+        "usageLimit": {
+          "maxUsageCount": 1,
+          "durationInMonths": 1
+        },
+        "applicableOn": null,
+        "source": "Zomato",
+        "offerText": "Get 10% OFF up to ₹600 using Kotak Bank Privy Neon Debit Card Valid on final payable amount of ₹2500 or more Offer applicable once per card per calendar month Offer applicable only on final billable amount net of other discounts (excluding convenience fee, cover charges and tips) Offer valid on all days Restaurants applicable under this program can be found on the app & are subject to change from time to time. Other T&Cs may apply"
+      }
+    ]
+  },
+  "Kotak Mahindra Bank-Privy Platinum-Debit": {
+    "cardName": "Privy Platinum",
+    "bankName": "Kotak Mahindra Bank",
+    "cardType": "Debit",
+    "discounts": [
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "offer": "10% off",
+        "maxDiscount": 1000,
+        "minBillAmount": 2500,
+        "usageLimit": {
+          "maxUsageCount": 1,
+          "durationInMonths": 1
+        },
+        "applicableOn": null,
+        "source": "Zomato",
+        "offerText": "Get 10% OFF up to ₹1000 using Kotak Bank Privy Platinum Debit Card Valid on final payable amount of ₹2500 or more Offer applicable once per card per calendar month Offer applicable only on final billable amount net of other discounts (excluding convenience fee, cover charges and tips) Offer valid on all days Restaurants applicable under this program can be found on the app & are subject to change from time to time. Other T&Cs may apply"
+      }
+    ]
+  },
+  "Kotak Mahindra Bank-Solitaire-Credit": {
+    "cardName": "Solitaire",
+    "bankName": "Kotak Mahindra Bank",
+    "cardType": "Credit",
+    "discounts": [
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "offer": "20% off",
+        "maxDiscount": 5000,
+        "minBillAmount": 0,
+        "usageLimit": {
+          "maxUsageCount": 2,
+          "durationInMonths": 1
+        },
+        "applicableOn": null,
+        "source": "Zomato",
+        "offerText": "Get 20% OFF up to ₹5000 using Kotak Bank Solitaire Credit Cards Valid on final payable amount through the app Offer applicable twice per card per calendar month This offer can be availed without any minimum bill value requirement Offer valid on all days Offer applicable only on final billable amount net of other discounts (excluding convenience fee, cover charges and tips) Restaurants applicable under this program can be found on the app & are subject to change from time to time. Other T&Cs may "
+      }
+    ]
+  },
+  "Kotak Mahindra Bank-Solitaire-Debit": {
+    "cardName": "Solitaire",
+    "bankName": "Kotak Mahindra Bank",
+    "cardType": "Debit",
+    "discounts": [
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "offer": "10% off",
+        "maxDiscount": 1500,
+        "minBillAmount": 2500,
+        "usageLimit": {
+          "maxUsageCount": 1,
+          "durationInMonths": 1
+        },
+        "applicableOn": null,
+        "source": "Zomato",
+        "offerText": "Get 10% OFF up to ₹1500 using Kotak Bank Solitaire Debit Card Valid on final payable amount of ₹2500 or more Offer applicable once per card per calendar month Offer valid on all days Offer applicable only on final billable amount net of other discounts (excluding convenience fee, cover charges and tips) Restaurants applicable under this program can be found on the app & are subject to change from time to time. Other T&Cs may apply"
+      }
+    ]
+  },
+  "Punjab National Bank-Any-Credit": {
+    "cardName": "Any",
+    "bankName": "Punjab National Bank",
+    "cardType": "Credit",
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "Flat ₹250 off",
+        "maxDiscount": 250,
+        "minBillAmount": null,
+        "usageLimit": {
+          "maxUsageCount": 1,
+          "durationInMonths": 3
+        },
+        "applicableOn": [
+          "movies"
+        ],
+        "source": "BookMyShow",
+        "offerText": "Customers transacting on BMS using PNB Credit Card Offer will be eligible flat INR250 discount. | Offer can be availed once per quarter per card on Movies/Non-movies. | Minimum 2 tickets need to be booked to avail the offer. | Offer valid on all days of the week."
+      }
+    ]
+  },
+  "Punjab National Bank-Any-Debit": {
+    "cardName": "Any",
+    "bankName": "Punjab National Bank",
+    "cardType": "Debit",
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "Flat ₹250 off",
+        "maxDiscount": 250,
+        "minBillAmount": null,
+        "usageLimit": null,
+        "applicableOn": [
+          "movies"
+        ],
+        "source": "BookMyShow",
+        "offerText": "Customers transacting on BMS using a PNB Debit Card will be eligible for a flat INR 250 discount. | A minimum of 2 tickets must be booked to avail the offer. | Discount will be applicable on ticket cost only. | Offer is valid on all days of the week for Movies/Non-Movies. | For eligible BINs and full offer terms, please refer to the FAQs."
+      }
+    ]
+  },
+  "Punjab National Bank-EKAA-Credit": {
+    "cardName": "EKAA",
+    "bankName": "Punjab National Bank",
+    "cardType": "Credit",
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "Buy 1 Get 1 Free. Minimum 2 tickets",
+        "maxDiscount": 500,
+        "minBillAmount": null,
+        "usageLimit": {
+          "maxUsageCount": 1,
+          "durationInMonths": 1
+        },
+        "applicableOn": [
+          "movies"
+        ],
+        "source": "BookMyShow",
+        "offerText": "Buy One ticket and Get One Free upto INR 500 with RuPay EKAA Credit Card | (PNB Luxura & Union Bank of India Nexteria). | Minimum 2 tickets needs to be booked to avail the offer | Offer can be availed once in a calendar month per card on Movies. | Offer valid on all days of the week | Discount is valid only on the ticket cost Only. BookMyShow convenience fee or any additional charges will be borne by the cardholder."
+      }
+    ]
+  },
+  "RBL Bank-Black-Credit": {
+    "cardName": "Black",
+    "bankName": "RBL Bank",
+    "cardType": "Credit",
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "Buy 1 Get 1 Free",
+        "maxDiscount": 300,
+        "minBillAmount": null,
+        "usageLimit": null,
+        "applicableOn": [
+          "movies"
+        ],
+        "source": "BookMyShow",
+        "offerText": "Buy One & Get One free with RBL Bank Platinum Maxima, RBL Bank Titanium Delight, RBL Bank MoneyTap, RBL Bank Icon, RBL vCards & Platinum ShopSmart SuperCard | RBL Bank Titanium and RBL vCards cardholders can book tickets throughout the week but only for shows on Wednesday | RBL Money tap cardholders can book tickets throughout the week for shows on Saturday and Sunday only | RBL Bank Platinum Maxima, Icon credit cardholders can avail the offer throughout the week | Get Flat Rs. 500 off twice a m"
+      }
+    ]
+  },
+  "RBL Bank-Blockbuster-Any": {
+    "cardName": "Blockbuster",
+    "bankName": "RBL Bank",
+    "cardType": null,
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "Discount available",
+        "maxDiscount": null,
+        "minBillAmount": null,
+        "usageLimit": null,
+        "applicableOn": [
+          "movies"
+        ],
+        "source": "BookMyShow",
+        "offerText": "Eligible RBL Bank Popcorn & Fun+ will get Rs. 500, Movies and More card will get Rs.250/500 and Blockbuster card will get Rs.500 if eligible"
+      }
+    ]
+  },
+  "RBL Bank-Blockbuster-Credit": {
+    "cardName": "Blockbuster",
+    "bankName": "RBL Bank",
+    "cardType": "Credit",
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "Buy 1 Get 1 Free",
+        "maxDiscount": 300,
+        "minBillAmount": null,
+        "usageLimit": null,
+        "applicableOn": [
+          "movies"
+        ],
+        "source": "BookMyShow",
+        "offerText": "Buy One & Get One free with RBL Bank Platinum Maxima, RBL Bank Titanium Delight, RBL Bank MoneyTap, RBL Bank Icon, RBL vCards & Platinum ShopSmart SuperCard | RBL Bank Titanium and RBL vCards cardholders can book tickets throughout the week but only for shows on Wednesday | RBL Money tap cardholders can book tickets throughout the week for shows on Saturday and Sunday only | RBL Bank Platinum Maxima, Icon credit cardholders can avail the offer throughout the week | Get Flat Rs. 500 off twice a m"
+      }
+    ]
+  },
+  "RBL Bank-Corporate-Credit": {
+    "cardName": "Corporate",
+    "bankName": "RBL Bank",
+    "cardType": "Credit",
+    "discounts": [
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "offer": "25% off",
+        "maxDiscount": 2500,
+        "minBillAmount": 7500,
+        "usageLimit": {
+          "maxUsageCount": 1,
+          "durationInMonths": 1
+        },
+        "applicableOn": null,
+        "source": "EazyDiner",
+        "offerText": "RBL Bank Corporate Credit Card 25% Off upto ₹2500 Min. bill value ₹7500. Valid once per card per month. RBL Bank Corporate Credit Cards. Min bill of ₹ 7500"
+      }
+    ]
+  },
+  "RBL Bank-Delight-Credit": {
+    "cardName": "Delight",
+    "bankName": "RBL Bank",
+    "cardType": "Credit",
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "Buy 1 Get 1 Free",
+        "maxDiscount": 300,
+        "minBillAmount": null,
+        "usageLimit": null,
+        "applicableOn": [
+          "movies"
+        ],
+        "source": "BookMyShow",
+        "offerText": "Buy One & Get One free with RBL Bank Platinum Maxima, RBL Bank Titanium Delight, RBL Bank MoneyTap, RBL Bank Icon, RBL vCards & Platinum ShopSmart SuperCard | RBL Bank Titanium and RBL vCards cardholders can book tickets throughout the week but only for shows on Wednesday | RBL Money tap cardholders can book tickets throughout the week for shows on Saturday and Sunday only | RBL Bank Platinum Maxima, Icon credit cardholders can avail the offer throughout the week | Get Flat Rs. 500 off twice a m"
+      }
+    ]
+  },
+  "RBL Bank-Fun+-Any": {
+    "cardName": "Fun+",
+    "bankName": "RBL Bank",
+    "cardType": null,
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "Discount available",
+        "maxDiscount": null,
+        "minBillAmount": null,
+        "usageLimit": null,
+        "applicableOn": [
+          "movies"
+        ],
+        "source": "BookMyShow",
+        "offerText": "Eligible RBL Bank Popcorn & Fun+ will get Rs. 500, Movies and More card will get Rs.250/500 and Blockbuster card will get Rs.500 if eligible"
+      }
+    ]
+  },
+  "RBL Bank-Fun+-Credit": {
+    "cardName": "Fun+",
+    "bankName": "RBL Bank",
+    "cardType": "Credit",
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "Buy 1 Get 1 Free",
+        "maxDiscount": 300,
+        "minBillAmount": null,
+        "usageLimit": null,
+        "applicableOn": [
+          "movies"
+        ],
+        "source": "BookMyShow",
+        "offerText": "Buy One & Get One free with RBL Bank Platinum Maxima, RBL Bank Titanium Delight, RBL Bank MoneyTap, RBL Bank Icon, RBL vCards & Platinum ShopSmart SuperCard | RBL Bank Titanium and RBL vCards cardholders can book tickets throughout the week but only for shows on Wednesday | RBL Money tap cardholders can book tickets throughout the week for shows on Saturday and Sunday only | RBL Bank Platinum Maxima, Icon credit cardholders can avail the offer throughout the week | Get Flat Rs. 500 off twice a m"
+      }
+    ]
+  },
+  "RBL Bank-Movies & More-Credit": {
+    "cardName": "Movies & More",
+    "bankName": "RBL Bank",
+    "cardType": "Credit",
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "Buy 1 Get 1 Free",
+        "maxDiscount": 300,
+        "minBillAmount": null,
+        "usageLimit": null,
+        "applicableOn": [
+          "movies"
+        ],
+        "source": "BookMyShow",
+        "offerText": "Buy One & Get One free with RBL Bank Platinum Maxima, RBL Bank Titanium Delight, RBL Bank MoneyTap, RBL Bank Icon, RBL vCards & Platinum ShopSmart SuperCard | RBL Bank Titanium and RBL vCards cardholders can book tickets throughout the week but only for shows on Wednesday | RBL Money tap cardholders can book tickets throughout the week for shows on Saturday and Sunday only | RBL Bank Platinum Maxima, Icon credit cardholders can avail the offer throughout the week | Get Flat Rs. 500 off twice a m"
+      }
+    ]
+  },
+  "RBL Bank-Platinum-Any": {
+    "cardName": "Platinum",
+    "bankName": "RBL Bank",
+    "cardType": null,
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "Buy 1 Get 1 Free",
+        "maxDiscount": 200,
+        "minBillAmount": null,
+        "usageLimit": null,
+        "applicableOn": null,
+        "source": "BookMyShow",
+        "offerText": "> Buy One Get One free upto INR200 on moive tickets TWICE a month for any show of the using RBL Bank World Prime SuperCard, RBL BankWorld Plus SuperCard & RBL Bank Platinum ShopGain SuperCard. | | > Buy One Get One free upto INR200 on moive tickets ONCE a month for any show of the week with RBL Bank Binge SuperCard, Platinum Edge SuperCard, World Select SuperCard, Platinum Shopsmart SuperCard, Platinum Lifeeasy SuperCard, CA SuperCard, Freedom SuperCard & RBL Bank World Max SuperCard. | | > Buy "
+      }
+    ]
+  },
+  "RBL Bank-Platinum-Credit": {
+    "cardName": "Platinum",
+    "bankName": "RBL Bank",
+    "cardType": "Credit",
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "Buy 1 Get 1 Free",
+        "maxDiscount": 300,
+        "minBillAmount": null,
+        "usageLimit": null,
+        "applicableOn": [
+          "movies"
+        ],
+        "source": "BookMyShow",
+        "offerText": "Buy One & Get One free with RBL Bank Platinum Maxima, RBL Bank Titanium Delight, RBL Bank MoneyTap, RBL Bank Icon, RBL vCards & Platinum ShopSmart SuperCard | RBL Bank Titanium and RBL vCards cardholders can book tickets throughout the week but only for shows on Wednesday | RBL Money tap cardholders can book tickets throughout the week for shows on Saturday and Sunday only | RBL Bank Platinum Maxima, Icon credit cardholders can avail the offer throughout the week | Get Flat Rs. 500 off twice a m"
+      }
+    ]
+  },
+  "RBL Bank-Popcorn-Any": {
+    "cardName": "Popcorn",
+    "bankName": "RBL Bank",
+    "cardType": null,
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "Discount available",
+        "maxDiscount": null,
+        "minBillAmount": null,
+        "usageLimit": null,
+        "applicableOn": [
+          "movies"
+        ],
+        "source": "BookMyShow",
+        "offerText": "Eligible RBL Bank Popcorn & Fun+ will get Rs. 500, Movies and More card will get Rs.250/500 and Blockbuster card will get Rs.500 if eligible"
+      }
+    ]
+  },
+  "RBL Bank-Preferred-Debit": {
+    "cardName": "Preferred",
+    "bankName": "RBL Bank",
+    "cardType": "Debit",
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "Buy 1 Get 1 Free",
+        "maxDiscount": 200,
+        "minBillAmount": null,
+        "usageLimit": null,
+        "applicableOn": [
+          "movies"
+        ],
+        "source": "BookMyShow",
+        "offerText": "• Buy 1 ticket and get 1 free upto INR 200 using an RBL Pinnacle Debit Card on Movies only. | • Eligible BINs: 45918321, 55974621, 55974623, 45918323 | | • Buy 1 ticket and get 1 free upto INR400 using an RBL Bank Insignia Preferred Banking Debit Card on Movies/Non-Movies. | • Eligible BINs: 51229351, 51229371, 40209351, 40209371 | | • A minimum of 2 tickets must be booked to avail the offer. | • Offer can be availed once per calendar month per card. | • Offer is valid on all days of the week."
+      }
+    ]
+  },
+  "RBL Bank-Signature-Credit": {
+    "cardName": "Signature",
+    "bankName": "RBL Bank",
+    "cardType": "Credit",
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "Buy 1 Get 1 Free",
+        "maxDiscount": 300,
+        "minBillAmount": null,
+        "usageLimit": null,
+        "applicableOn": [
+          "movies"
+        ],
+        "source": "BookMyShow",
+        "offerText": "Buy One & Get One free with RBL Bank Platinum Maxima, RBL Bank Titanium Delight, RBL Bank MoneyTap, RBL Bank Icon, RBL vCards & Platinum ShopSmart SuperCard | RBL Bank Titanium and RBL vCards cardholders can book tickets throughout the week but only for shows on Wednesday | RBL Money tap cardholders can book tickets throughout the week for shows on Saturday and Sunday only | RBL Bank Platinum Maxima, Icon credit cardholders can avail the offer throughout the week | Get Flat Rs. 500 off twice a m"
+      }
+    ]
+  },
+  "RBL Bank-SuperCard-Any": {
+    "cardName": "SuperCard",
+    "bankName": "RBL Bank",
+    "cardType": null,
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "Buy 1 Get 1 Free",
+        "maxDiscount": 200,
+        "minBillAmount": null,
+        "usageLimit": null,
+        "applicableOn": null,
+        "source": "BookMyShow",
+        "offerText": "> Buy One Get One free upto INR200 on moive tickets TWICE a month for any show of the using RBL Bank World Prime SuperCard, RBL BankWorld Plus SuperCard & RBL Bank Platinum ShopGain SuperCard. | | > Buy One Get One free upto INR200 on moive tickets ONCE a month for any show of the week with RBL Bank Binge SuperCard, Platinum Edge SuperCard, World Select SuperCard, Platinum Shopsmart SuperCard, Platinum Lifeeasy SuperCard, CA SuperCard, Freedom SuperCard & RBL Bank World Max SuperCard. | | > Buy "
+      }
+    ]
+  },
+  "RBL Bank-SuperCard-Credit": {
+    "cardName": "SuperCard",
+    "bankName": "RBL Bank",
+    "cardType": "Credit",
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "Buy 1 Get 1 Free",
+        "maxDiscount": 300,
+        "minBillAmount": null,
+        "usageLimit": null,
+        "applicableOn": [
+          "movies"
+        ],
+        "source": "BookMyShow",
+        "offerText": "Buy One & Get One free with RBL Bank Platinum Maxima, RBL Bank Titanium Delight, RBL Bank MoneyTap, RBL Bank Icon, RBL vCards & Platinum ShopSmart SuperCard | RBL Bank Titanium and RBL vCards cardholders can book tickets throughout the week but only for shows on Wednesday | RBL Money tap cardholders can book tickets throughout the week for shows on Saturday and Sunday only | RBL Bank Platinum Maxima, Icon credit cardholders can avail the offer throughout the week | Get Flat Rs. 500 off twice a m"
+      }
+    ]
+  },
+  "RBL Bank-Supercard-Any": {
+    "cardName": "Supercard",
+    "bankName": "RBL Bank",
+    "cardType": null,
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "Buy 1 Get 1 Free",
+        "maxDiscount": 200,
+        "minBillAmount": null,
+        "usageLimit": null,
+        "applicableOn": null,
+        "source": "BookMyShow",
+        "offerText": "> Buy One Get One free upto INR200 on moive tickets TWICE a month for any show of the using RBL Bank World Prime SuperCard, RBL BankWorld Plus SuperCard & RBL Bank Platinum ShopGain SuperCard. | | > Buy One Get One free upto INR200 on moive tickets ONCE a month for any show of the week with RBL Bank Binge SuperCard, Platinum Edge SuperCard, World Select SuperCard, Platinum Shopsmart SuperCard, Platinum Lifeeasy SuperCard, CA SuperCard, Freedom SuperCard & RBL Bank World Max SuperCard. | | > Buy "
+      }
+    ]
+  },
+  "RBL Bank-Titanium-Credit": {
+    "cardName": "Titanium",
+    "bankName": "RBL Bank",
+    "cardType": "Credit",
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "Buy 1 Get 1 Free",
+        "maxDiscount": 300,
+        "minBillAmount": null,
+        "usageLimit": null,
+        "applicableOn": [
+          "movies"
+        ],
+        "source": "BookMyShow",
+        "offerText": "Buy One & Get One free with RBL Bank Platinum Maxima, RBL Bank Titanium Delight, RBL Bank MoneyTap, RBL Bank Icon, RBL vCards & Platinum ShopSmart SuperCard | RBL Bank Titanium and RBL vCards cardholders can book tickets throughout the week but only for shows on Wednesday | RBL Money tap cardholders can book tickets throughout the week for shows on Saturday and Sunday only | RBL Bank Platinum Maxima, Icon credit cardholders can avail the offer throughout the week | Get Flat Rs. 500 off twice a m"
+      }
+    ]
+  },
+  "RBL Bank-World-Any": {
+    "cardName": "World",
+    "bankName": "RBL Bank",
+    "cardType": null,
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "Buy 1 Get 1 Free",
+        "maxDiscount": 200,
+        "minBillAmount": null,
+        "usageLimit": null,
+        "applicableOn": null,
+        "source": "BookMyShow",
+        "offerText": "> Buy One Get One free upto INR200 on moive tickets TWICE a month for any show of the using RBL Bank World Prime SuperCard, RBL BankWorld Plus SuperCard & RBL Bank Platinum ShopGain SuperCard. | | > Buy One Get One free upto INR200 on moive tickets ONCE a month for any show of the week with RBL Bank Binge SuperCard, Platinum Edge SuperCard, World Select SuperCard, Platinum Shopsmart SuperCard, Platinum Lifeeasy SuperCard, CA SuperCard, Freedom SuperCard & RBL Bank World Max SuperCard. | | > Buy "
+      }
+    ]
+  },
+  "RBL Bank-easy-Any": {
+    "cardName": "easy",
+    "bankName": "RBL Bank",
+    "cardType": null,
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "Buy 1 Get 1 Free",
+        "maxDiscount": 200,
+        "minBillAmount": null,
+        "usageLimit": null,
+        "applicableOn": null,
+        "source": "BookMyShow",
+        "offerText": "> Buy One Get One free upto INR200 on moive tickets TWICE a month for any show of the using RBL Bank World Prime SuperCard, RBL BankWorld Plus SuperCard & RBL Bank Platinum ShopGain SuperCard. | | > Buy One Get One free upto INR200 on moive tickets ONCE a month for any show of the week with RBL Bank Binge SuperCard, Platinum Edge SuperCard, World Select SuperCard, Platinum Shopsmart SuperCard, Platinum Lifeeasy SuperCard, CA SuperCard, Freedom SuperCard & RBL Bank World Max SuperCard. | | > Buy "
+      }
+    ]
+  },
+  "RBL Bank-vantage-Any": {
+    "cardName": "vantage",
+    "bankName": "RBL Bank",
+    "cardType": null,
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "Buy 1 Get 1 Free",
+        "maxDiscount": 200,
+        "minBillAmount": null,
+        "usageLimit": null,
+        "applicableOn": null,
+        "source": "BookMyShow",
+        "offerText": "> Buy One Get One free upto INR200 on moive tickets TWICE a month for any show of the using RBL Bank World Prime SuperCard, RBL BankWorld Plus SuperCard & RBL Bank Platinum ShopGain SuperCard. | | > Buy One Get One free upto INR200 on moive tickets ONCE a month for any show of the week with RBL Bank Binge SuperCard, Platinum Edge SuperCard, World Select SuperCard, Platinum Shopsmart SuperCard, Platinum Lifeeasy SuperCard, CA SuperCard, Freedom SuperCard & RBL Bank World Max SuperCard. | | > Buy "
+      }
+    ]
+  },
+  "SBI Card-AURUM-Credit": {
+    "cardName": "AURUM",
+    "bankName": "SBI Card",
+    "cardType": "Credit",
+    "discounts": [
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "offer": "15% off",
+        "maxDiscount": 750,
+        "minBillAmount": 4000,
+        "usageLimit": {
+          "maxUsageCount": 1,
+          "durationInMonths": 1
+        },
+        "applicableOn": null,
+        "source": "Zomato",
+        "offerText": "Get 15% OFF up to ₹750 using SBI AURUM Credit Cards Valid on final payable amount of ₹4000 or more Offer valid once per card per month Offer is not eligible for Reward Points forfeiture Offer applicable only on final billable amount net of other discounts (excluding convenience fee, cover charges and tips) Restaurants applicable under this program can be found on the app & are subject to change from time to time Other T&Cs may apply"
+      }
+    ]
+  },
+  "SBI Card-Any-Any": {
+    "cardName": "Any",
+    "bankName": "SBI Card",
+    "cardType": null,
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "1 free ticket(s)",
+        "maxDiscount": 250,
+        "minBillAmount": null,
+        "usageLimit": {
+          "maxUsageCount": 1,
+          "durationInMonths": 1
+        },
+        "applicableOn": [
+          "movies"
+        ],
+        "source": "BookMyShow",
+        "offerText": "Get 1 Free movie ticket upto INR250 every month with Reliance SBI Card PRIME | Offer can be availed once in a calendar month per card on Movies Only. | Offer valid on all days of the week | Offer is valid only on Primary Card"
+      }
+    ]
+  },
+  "SBI Card-Business-Debit": {
+    "cardName": "Business",
+    "bankName": "SBI Card",
+    "cardType": "Debit",
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "Buy 1 Get 1 Free. Minimum 2 tickets",
+        "maxDiscount": 250,
+        "minBillAmount": null,
+        "usageLimit": {
+          "maxUsageCount": 1,
+          "durationInMonths": 1
+        },
+        "applicableOn": [
+          "movies",
+          "events",
+          "concerts",
+          "plays",
+          "sports"
+        ],
+        "source": "BookMyShow",
+        "offerText": "Buy one ticket and Get One ticket free upto INR 250 SBI Signature Visa Debit cards. | Buy one ticket and Get One ticket free upto INR 200 SBI Business Platinum Visa Debit cards. | Get 50% instant discount Upto INR 100 using SBI Platinum Visa Debit Card | Offer is valid on Movies, Events, Concerts, Plays, Sports & Activities, Excluding BMS Stream on BookMyShow. | Offer valid once per card per month. | Customers will have to book minimum 2 tickets to avail the offer | Offer Applicable for Bookings"
+      }
+    ]
+  },
+  "SBI Card-Elite-Credit": {
+    "cardName": "Elite",
+    "bankName": "SBI Card",
+    "cardType": "Credit",
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "2 free ticket(s)",
+        "maxDiscount": null,
+        "minBillAmount": null,
+        "usageLimit": null,
+        "applicableOn": [
+          "movies"
+        ],
+        "source": "BookMyShow",
+        "offerText": "Get 2 free movie tickets per month or INR 500 off whichever is less with SBI Signature/Elite credit card | Offer valid on purchase of minimum 2 movie tickets | This offer is valid only on the primary card | To know more about SBI Card ELITE, please SMS “ELITE” to 5676791"
+      }
+    ]
+  },
+  "SBI Card-Wealth-Debit": {
+    "cardName": "Wealth",
+    "bankName": "SBI Card",
+    "cardType": "Debit",
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "Flat ₹500 off",
+        "maxDiscount": 500,
+        "minBillAmount": null,
+        "usageLimit": {
+          "maxUsageCount": 1,
+          "durationInMonths": 3
+        },
+        "applicableOn": [
+          "movies"
+        ],
+        "source": "BookMyShow",
+        "offerText": "SBI Wealth RuPay Select Debit Card Offer | Flat ₹500 discount per transaction.Offer valid once per calendar month per card.BIN: 652418, 81801102 | Platinum & Select SBI RuPay Debit Card Offer | Flat ₹250 discount per transaction.Offer valid once per quarter per card.BINs: 652374, 652375, 652410 | SBI GOVT RuPay Debit Card Offer | Flat ₹250 discount per transaction.Offer valid once per quarter per card.BINs: 35381404, 35381407, 35381408, 35370305, 35370301, 35370303, 35370302, 35370304, 35381405,"
+      }
+    ]
+  },
+  "SBM Bank-Novio-Credit": {
+    "cardName": "Novio",
+    "bankName": "SBM Bank",
+    "cardType": "Credit",
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "Buy 1 Get 1 Free. Minimum 2 tickets",
+        "maxDiscount": 250,
+        "minBillAmount": null,
+        "usageLimit": {
+          "maxUsageCount": 1,
+          "durationInMonths": 1
+        },
+        "applicableOn": [
+          "movies"
+        ],
+        "source": "BookMyShow",
+        "offerText": "Buy one ticket and Get One ticket free with SBM Novio Credit Card. | Offer is valid on Movies and non-movies ticket Booking only. | Card members can avail maximum discount value upto INR 250. | Users will get only 1 free ticket upto INR 250 per transaction | Minimum 2 tickets needs to be purchased to avail this offer | Offer Valid all days of the week | Offer can be availed once per card per month | Quota will be subject to availablity"
+      }
+    ]
+  },
+  "South Indian Bank-Debit Card-Debit": {
+    "cardName": "Debit Card",
+    "bankName": "South Indian Bank",
+    "cardType": "Debit",
+    "discounts": [
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "offer": "10% off",
+        "maxDiscount": 750,
+        "minBillAmount": 2500,
+        "usageLimit": {
+          "maxUsageCount": 1,
+          "durationInMonths": 1
+        },
+        "applicableOn": null,
+        "source": "EazyDiner",
+        "offerText": "South Indian Bank Debit Cards ・10% Off upto ₹750 ・Min. bill of ₹2500. ・Valid once per card per month ・South Indian Bank Super Premium Debit Cards. Min bill of ₹ 2500"
+      }
+    ]
+  },
+  "Standard Chartered Bank-Beyond-Credit": {
+    "cardName": "Beyond",
+    "bankName": "Standard Chartered Bank",
+    "cardType": "Credit",
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "Buy 1 Get 1 Free. Minimum 2 tickets",
+        "maxDiscount": 1000,
+        "minBillAmount": null,
+        "usageLimit": {
+          "maxUsageCount": 1,
+          "durationInMonths": 1
+        },
+        "applicableOn": [
+          "movies",
+          "events",
+          "concerts",
+          "plays",
+          "sports"
+        ],
+        "source": "BookMyShow",
+        "offerText": "Buy one ticket and Get One ticket free upto INR 1000 using Standard Chartered Bank Beyond Credit card. | Offer is valid on Movies, Events, Concerts, Plays, Sports & Activities, Excluding BMS Stream on BookMyShow. | Offer valid once per card per month. | Card members can avail maximum discount value up to INR 1000. | Customers will have to book minimum 2 tickets to avail the offer | Offer Applicable for Bookings done all days of the week | Offer is valid till 31st March 2026."
+      },
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "offer": "25% off",
+        "maxDiscount": 2500,
+        "minBillAmount": null,
+        "usageLimit": {
+          "maxUsageCount": 1,
+          "durationInMonths": 1
+        },
+        "applicableOn": null,
+        "source": "EazyDiner",
+        "offerText": "Standard Chartered Beyond Credit Card Select ・25% Off upto ₹2500 ・No min. bill value. ・Valid once per month ・Standard Chartered Beyond Credit Card."
+      }
+    ]
+  },
+  "Telangana State Cooperative Apex Bank-RuPay-Debit": {
+    "cardName": "RuPay",
+    "bankName": "Telangana State Cooperative Apex Bank",
+    "cardType": "Debit",
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "Buy 1 Get 1 Free",
+        "maxDiscount": 150,
+        "minBillAmount": null,
+        "usageLimit": {
+          "maxUsageCount": 1,
+          "durationInMonths": 1
+        },
+        "applicableOn": [
+          "movies"
+        ],
+        "source": "BookMyShow",
+        "offerText": "| Buy one ticket and get one ticket free upto INR 150 using Telangana State Cooperative Apex Bank RuPay Platinum Debit Card Offer | This offer can be availed Once in a calendar month per card user as per the eligibility. | Offer is valid Movies only | Offer can be availed all days of the week"
+      }
+    ]
+  },
+  "Tide-Any-Any": {
+    "cardName": "Any",
+    "bankName": "Tide",
+    "cardType": null,
+    "discounts": [
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "offer": "10% off",
+        "maxDiscount": 200,
+        "minBillAmount": 999,
+        "usageLimit": {
+          "maxUsageCount": 1,
+          "durationInMonths": 1
+        },
+        "applicableOn": null,
+        "source": "Zomato",
+        "offerText": "Get 10% OFF up to ₹200 using TIDE Cards Valid on final payable amount of ₹999 or more Offer valid once per user during the offer period Offer applicable only on final billable amount net of other discounts (excluding convenience fee, cover charges and tips) Restaurants applicable under this program can be found on the app & are subject to change from time to time Other T&Cs may apply"
+      }
+    ]
+  },
+  "UCO Bank-Any-Debit": {
+    "cardName": "Any",
+    "bankName": "UCO Bank",
+    "cardType": "Debit",
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "Buy 1 Get 1 Free. Minimum 2 tickets",
+        "maxDiscount": 250,
+        "minBillAmount": null,
+        "usageLimit": null,
+        "applicableOn": [
+          "movies"
+        ],
+        "source": "BookMyShow",
+        "offerText": "Buy One ticket and Get One Free upto INR 250 with UCO Bank Debit Card. | Minimum 2 tickets needs to be booked to avail the offer | Offer can be availed once during the offer period per card on Movies. | Offer valid on all days of the week | Offer is valid on Movies."
+      }
+    ]
+  },
+  "UCO Bank-Platinum-Debit": {
+    "cardName": "Platinum",
+    "bankName": "UCO Bank",
+    "cardType": "Debit",
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "Flat ₹250 off",
+        "maxDiscount": 250,
+        "minBillAmount": null,
+        "usageLimit": {
+          "maxUsageCount": 1,
+          "durationInMonths": 3
+        },
+        "applicableOn": [
+          "movies"
+        ],
+        "source": "BookMyShow",
+        "offerText": "Customers transacting on BMS using UCO Woman Aparajita Platinum Debit Card will be eligible flat INR250 discount. | Offer can be availed once per quarter per card on Movies/Non-movies. | Minimum 2 tickets need to be booked to avail the offer. | Offer valid on all days of the week."
+      }
+    ]
+  },
+  "Ujjivan Small Finance Bank-Any-Debit": {
+    "cardName": "Any",
+    "bankName": "Ujjivan Small Finance Bank",
+    "cardType": "Debit",
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "Flat ₹250 off",
+        "maxDiscount": 250,
+        "minBillAmount": null,
+        "usageLimit": {
+          "maxUsageCount": 1,
+          "durationInMonths": 3
+        },
+        "applicableOn": [
+          "movies"
+        ],
+        "source": "BookMyShow",
+        "offerText": "Customers transacting on BMS using Ujjivan Small Finance Bank Debit Card will be eligible flat INR250 discount. | Offer can be availed once in a quarter per card on Movies/Non-movies. | Minimum 2 tickets need to be booked to avail the offer. | Offer valid on all days of the week | BIN: 65249719"
+      }
+    ]
+  },
+  "Union Bank of India-Divaa RuPay-Credit": {
+    "cardName": "Divaa RuPay",
+    "bankName": "Union Bank of India",
+    "cardType": "Credit",
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "Flat ₹250 off",
+        "maxDiscount": 250,
+        "minBillAmount": null,
+        "usageLimit": {
+          "maxUsageCount": 1,
+          "durationInMonths": 1
+        },
+        "applicableOn": [
+          "movies"
+        ],
+        "source": "BookMyShow",
+        "offerText": "Customers transacting on BMS using Union Bank of India Divaa RuPay Credit Card Offer will be eligible for a flat INR250 discount once per quarter on Movies/Non-movies. | Eligible BIN: 652982 | Customers transacting on BMS using Union Unicorn RuPay Select Credit Card Offer will be eligible for a flat INR250 discount once per month per card on Movies/Non-movies. | Eligible BIN: 65309731 | Minimum 2 tickets need to be booked to avail the offer. | Offer valid on all days of the week."
+      }
+    ]
+  },
+  "Union Bank of India-Elite-Debit": {
+    "cardName": "Elite",
+    "bankName": "Union Bank of India",
+    "cardType": "Debit",
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "Flat ₹500 off",
+        "maxDiscount": 500,
+        "minBillAmount": null,
+        "usageLimit": null,
+        "applicableOn": [
+          "movies"
+        ],
+        "source": "BookMyShow",
+        "offerText": "Customers transacting on BMS using RuPay Union Bank of India HNI Emperio & Elite Metal Debit Card Offer will be eligible flat INR500 discount. | Customers transacting on BMS using Union Bank of India Women Empower Debit Card Offer will be eligible flat INR250 discount. | Offer can be availed once in a calander month per card on Movies/Non-movies. | Minimum 2 tickets need to be booked to avail the offer. | Offer valid on all days of the week."
+      }
+    ]
+  },
+  "Unknown-AURUM-Credit": {
+    "cardName": "AURUM",
+    "bankName": null,
+    "cardType": "Credit",
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "4 free ticket(s)",
+        "maxDiscount": null,
+        "minBillAmount": null,
+        "usageLimit": null,
+        "applicableOn": [
+          "movies"
+        ],
+        "source": "BookMyShow",
+        "offerText": "Get 4 free movie tickets per month or INR 1000 off whichever is less with AURUM credit card. | Offer is applicable on maximum 4 tickets in a month, with a maximum discount of INR 250 per ticket. | Maximum 2 tickets can be availed in a transaction. | The offer is available on all days of the week."
+      }
+    ]
+  },
+  "Unknown-Tide-Any": {
+    "cardName": "Tide",
+    "bankName": null,
+    "cardType": null,
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "Buy 1 Get 1 Free. Minimum 2 tickets",
+        "maxDiscount": 200,
+        "minBillAmount": 500,
+        "usageLimit": {
+          "maxUsageCount": 1,
+          "durationInMonths": 1
+        },
+        "applicableOn": [
+          "movies",
+          "events",
+          "concerts",
+          "plays",
+          "sports"
+        ],
+        "source": "BookMyShow",
+        "offerText": "Members transacting on BookMyShow using Tide Card will be eligible for buy one ticket and get One ticket free up to INR 200, on a minimum transaction value of INR 500. | Minimum 2 tickets need to be booked to avail the offer. | Offer can be availed once in a calendar month per card. | Offer valid on all days of the week. | The offer is valid for movies, events, concerts, plays, sports & activities. Excluding BMS Stream and Food & Beverages. | Offer is valid till 31st March 2026"
+      }
+    ]
+  },
+  "Unknown-Visa Infinite-Any": {
+    "cardName": "Visa Infinite",
+    "bankName": null,
+    "cardType": null,
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "50% off",
+        "maxDiscount": 300,
+        "minBillAmount": null,
+        "usageLimit": null,
+        "applicableOn": [
+          "movies"
+        ],
+        "source": "BookMyShow",
+        "offerText": "Movie & F&B discount : Get 50% discount up to Rs 300 on minimum booking of 2 movie tickets and up to INR 200 off on food combos with Visa Infinite cards | Non movie discount : Get 50% discount up to Rs 500 on minimum booking of 2 non movie tickets"
+      }
+    ]
+  },
+  "Unknown-Visa Signature-Any": {
+    "cardName": "Visa Signature",
+    "bankName": null,
+    "cardType": null,
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "50% off",
+        "maxDiscount": 300,
+        "minBillAmount": null,
+        "usageLimit": null,
+        "applicableOn": [
+          "movies"
+        ],
+        "source": "BookMyShow",
+        "offerText": "Get 50% discount up to Rs 300 on movies with Visa Signature Cards & select Visa Rewards Cards | Offer valid on minimum booking of two movie tickets | Offer is valid on both credit & debit Visa Signature Cards & select Visa Rewards Cards"
+      }
+    ]
+  },
+  "Unknown-ZET-Credit": {
+    "cardName": "ZET",
+    "bankName": null,
+    "cardType": "Credit",
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "Discount available",
+        "maxDiscount": null,
+        "minBillAmount": 1000,
+        "usageLimit": {
+          "maxUsageCount": 1,
+          "durationInMonths": 1
+        },
+        "applicableOn": [
+          "movies"
+        ],
+        "source": "BookMyShow",
+        "offerText": "Get Flat discount INR 100 using ZET Credit Card offer | Get Flat discount INR 100 using ZET Credit Card offer | Offer valid on bookings for Movie category ticket booking on BookMyShow | Offer valid on bookings for Movie category ticket booking on BookMyShow | Minimum transaction value of INR 1000 | Offer valid Once per card per month. | Offer valid Once per card per month. | Offer valid till 31st March, 2026 | Offer valid till 31st March, 2026"
+      }
+    ]
+  },
+  "Utkarsh Small Finance Bank-Any-Debit": {
+    "cardName": "Any",
+    "bankName": "Utkarsh Small Finance Bank",
+    "cardType": "Debit",
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "Flat ₹125 off",
+        "maxDiscount": 125,
+        "minBillAmount": 600,
+        "usageLimit": {
+          "maxUsageCount": 1,
+          "durationInMonths": 1
+        },
+        "applicableOn": [
+          "movies",
+          "events",
+          "concerts",
+          "plays",
+          "sports"
+        ],
+        "source": "BookMyShow",
+        "offerText": "Get flat INR125 Off on a minimum transaction value of Rs. 600 & above with Utkarsh Small Finance Bank Debit Cards. | Get flat INR50 Off on a minimum transaction value of Rs. 300 & above with Utkarsh Small Finance Bank Debit Cards. | Minimum 2 tickets need to be booked to avail the offer. | This offer is valid on all days of the week. | This offer can be availed once in a calendar month on Movies/Non-movies. | Offer is valid on Movies, Events, Concerts, Plays, Sports and Activities. Excluding BMS"
+      }
+    ]
+  },
+  "Yes Bank-Any-Credit": {
+    "cardName": "Any",
+    "bankName": "Yes Bank",
+    "cardType": "Credit",
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "25% off",
+        "maxDiscount": 250,
+        "minBillAmount": null,
+        "usageLimit": {
+          "maxUsageCount": 1,
+          "durationInMonths": 1
+        },
+        "applicableOn": [
+          "movies"
+        ],
+        "source": "BookMyShow",
+        "offerText": "Get 25% discount upto INR 250 on BookMyShow using YES BANK Credit Cards | Offer can be availed once in a calendar month per card on Movies Only. | Offer valid on all days of the week | This offer is Valid for YES Bank RESERV Credit Cards (earlier known as YES First Exclusive), YES First PREFERRED Credit Card and YES Bank ELITE Credit Cards (previously known as YES Premia)"
+      },
+      {
+        "type": "dine-in",
+        "location": "Bangalore",
+        "offer": "Flat ₹500 off",
+        "maxDiscount": 500,
+        "minBillAmount": 4000,
+        "usageLimit": {
+          "maxUsageCount": 1,
+          "durationInMonths": 1
+        },
+        "applicableOn": null,
+        "source": "Zomato",
+        "offerText": "Flat ₹500 OFF using YES BANK Credit Cards Valid on final payable amount of ₹4000 or more Offer valid once per user during the offer period Offer applicable only on final billable amount net of other discounts (excluding convenience fee, cover charges and tips) Restaurants applicable under this program can be found on the app & are subject to change from time to time Other T&Cs may apply"
+      }
+    ]
+  },
+  "Yes Bank-Any-Debit": {
+    "cardName": "Any",
+    "bankName": "Yes Bank",
+    "cardType": "Debit",
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "50% off",
+        "maxDiscount": 500,
+        "minBillAmount": null,
+        "usageLimit": {
+          "maxUsageCount": 2,
+          "durationInMonths": 1
+        },
+        "applicableOn": [
+          "movies"
+        ],
+        "source": "BookMyShow",
+        "offerText": "Get 50% Off upto INR 500 with YES Bank Apex International Metal Debit Card Offer on minimum purchase of 2 tickets. | This offer can be availed TWICE per card user in a calendar month on Movies/Non-movies. | Maximum discount per card in a calendar month is INR1000. | The customer will get a MAX discount upto INR500 in a single transaction."
+      }
+    ]
+  },
+  "Yes Bank-Business-Debit": {
+    "cardName": "Business",
+    "bankName": "Yes Bank",
+    "cardType": "Debit",
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "50% off",
+        "maxDiscount": 500,
+        "minBillAmount": null,
+        "usageLimit": {
+          "maxUsageCount": 1,
+          "durationInMonths": 1
+        },
+        "applicableOn": [
+          "movies"
+        ],
+        "source": "BookMyShow",
+        "offerText": "> For ENGAGE Debit Card(MasterCard)/Titanium Plus Debit, offer will be applicable on first 400 transactions & cardholder can avail a discount of INR 100 per transaction once in a calendar month. | > For ENGAGE Debit Card(VISA), offer will be applicable on first 1000 transactions & cardholder can avail a discount of INR 100 per transaction once in a calendar month on minimum purchase of two movies tickets. | > For ELEGANCE Debit Card, offer will be applicable on first 400 transactions per month a"
+      }
+    ]
+  },
+  "Yes Bank-MARQUEE-Credit": {
+    "cardName": "MARQUEE",
+    "bankName": "Yes Bank",
+    "cardType": "Credit",
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "Buy 1 Get 1 Free. Minimum 2 tickets",
+        "maxDiscount": 800,
+        "minBillAmount": null,
+        "usageLimit": {
+          "maxUsageCount": 3,
+          "durationInMonths": 1
+        },
+        "applicableOn": [
+          "movies"
+        ],
+        "source": "BookMyShow",
+        "offerText": "Buy One ticket and Get One Free upto INR 800 with YES Bank MARQUEE Credit Card. | Customers can avail maximum 3 free tickets for movies in a calendar month. | Maximum discount per ticket is capped at INR 800 | Customers can avail free Movie tickets in a single transaction or multiple transactions. | Minimum 2 tickets need to be booked in order to avail the offer. | Offer valid on all days of the week | Offer is valid on Movies. Excluding Events, Concerts, Plays, Sports and Activities, BMS Stream"
+      }
+    ]
+  },
+  "Yes Bank-Private-Credit": {
+    "cardName": "Private",
+    "bankName": "Yes Bank",
+    "cardType": "Credit",
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "50% off",
+        "maxDiscount": 1000,
+        "minBillAmount": null,
+        "usageLimit": null,
+        "applicableOn": [
+          "movies",
+          "events",
+          "plays",
+          "sports"
+        ],
+        "source": "BookMyShow",
+        "offerText": "Offer 1: Buy One and Get One Movie ticket free with Yes Private and Yes Private Prime credit cards. Card members avail a maximum of 4 complimentary tickets a month. | Offer 2: Get 50% off on Event tickets including Experiences, Events, Plays and Sports with Yes Private and Yes Private Prime credit cards. Card members can avail discount up to INR 1000 every calendar month. | Card members can avail both the offers in a month."
+      }
+    ]
+  },
+  "Yes Bank-Private-Debit": {
+    "cardName": "Private",
+    "bankName": "Yes Bank",
+    "cardType": "Debit",
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "Buy 1 Get 1 Free. Minimum 2 tickets",
+        "maxDiscount": 1200,
+        "minBillAmount": null,
+        "usageLimit": null,
+        "applicableOn": [
+          "events",
+          "concerts",
+          "plays",
+          "sports"
+        ],
+        "source": "BookMyShow",
+        "offerText": "YES Private Debit Card Offer - BIN Ranges 54564500, 54564501 | Buy One ticket and Get One Free upto INR 1200 with YES Private Debit Card | Customer can avail maximum 4 free tickets for movies & 4 free tickets for non movies tickets in a calendar month i.e total 8 Tickets in a calendar month | Maximum discount per ticket is capped at INR 1200 | Customers can avail free Movie or Non-Movie tickets in a single transaction or multiple transactions. | Minimum 2 tickets need to be booked in order to av"
+      }
+    ]
+  },
+  "ZAGG-RuPay-Credit": {
+    "cardName": "RuPay",
+    "bankName": "ZAGG",
+    "cardType": "Credit",
+    "discounts": [
+      {
+        "type": "entertainment (movies, events, concerts)",
+        "location": "India",
+        "offer": "Buy 1 Get 1 Free. Minimum 2 tickets",
+        "maxDiscount": 100,
+        "minBillAmount": null,
+        "usageLimit": null,
+        "applicableOn": [
+          "movies"
+        ],
+        "source": "BookMyShow",
+        "offerText": "Buy one ticket and Get One ticket free with Zagg RuPay Credit Card. | Offer is valid on Movies Booking only. | Card members can avail maximum discount value upto INR 100 | Users will get only 1 free ticket upto INR 100 per transaction | Minimum 2 tickets needs to be purchased to avail this offer | Offer Valid all days of the week | Offer can be availed once during each quater"
+      }
+    ]
+  }
+}
