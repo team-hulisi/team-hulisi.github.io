@@ -1,10 +1,10 @@
 :root {
-  --theme: #6366f1;
-  --theme-light: #818cf8;
-  --theme-lighter: #c7d2fe;
-  --theme-lightest: #eef2ff;
-  --theme-dark: #4f46e5;
-  --text: #1f2937;
+  --theme: #ec4899;
+  --theme-light: #f472b6;
+  --theme-lighter: #fbcfe8;
+  --theme-lightest: #fdf2f8;
+  --theme-dark: #db2777;
+  --text: #454a52;
   --text-muted: #6b7280;
   --bg: #ffffff;
   --card-bg: #f9fafb;
