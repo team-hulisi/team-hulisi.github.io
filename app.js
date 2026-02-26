@@ -1,7 +1,7 @@
 const STORAGE_KEY = 'hulisi_selected_cards';
 const ICONS = {
   Zomato: 'images/zomato-icon.svg',
-  EazyDiner: 'images/eazydiner-icon.svg',
+  EazyDiner: 'images/eazydiner-icon.webp',
   BookMyShow: 'images/bookmyshow-icon.webp'
 };
 const CAROUSEL_IMAGES = {
